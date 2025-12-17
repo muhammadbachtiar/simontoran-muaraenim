@@ -1,0 +1,2267 @@
+2025-12-17 11:25:41.700012 [INFO] [config:server:basics] httpdWorkers: 8, Num of Processors: 8
+2025-12-17 11:25:41.702692 [INFO] [config:server:basics] enableLVE: 0
+2025-12-17 11:25:41.702972 [INFO] [config:server:basics] bubbleWrap: 0, cmd: '(null)'
+2025-12-17 11:25:41.704410 [NOTICE] [testAndFixDirs] "/usr/local/lsws//conf/" own or permission need to be changed.
+2025-12-17 11:25:41.807296 [INFO] [PlainConf] [httpServerConfig:] start parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 11:25:41.807746 [INFO] [PlainConf] [httpServerConfig:] Failed to RCS checkin conf file /usr/local/lsws/conf/httpd_config.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/conf/httpd_config.conf0" -mUpdate "/usr/local/lsws/conf/httpd_config.conf0" >/dev/null 2>&1.
+2025-12-17 11:25:41.808152 [INFO] [PlainConf] [httpServerConfig:] Finished parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 11:25:41.808384 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkprivatecache 1]
+2025-12-17 11:25:41.808653 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkpubliccache 1]
+2025-12-17 11:25:41.808851 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxcacheobjsize 10000000]
+2025-12-17 11:25:41.809040 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxstaleage 200]
+2025-12-17 11:25:41.809247 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [qscache 1]
+2025-12-17 11:25:41.809445 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [reqcookiecache 1]
+2025-12-17 11:25:41.809646 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [respcookiecache 1]
+2025-12-17 11:25:41.809823 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorereqcachectrl 1]
+2025-12-17 11:25:41.810007 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorerespcachectrl 0]
+2025-12-17 11:25:41.810273 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enablecache 0]
+2025-12-17 11:25:41.810444 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [expireinseconds 3600]
+2025-12-17 11:25:41.810621 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enableprivatecache 0]
+2025-12-17 11:25:41.810780 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [privateexpireinseconds 3600]
+2025-12-17 11:25:41.810935 [NOTICE] Loading LiteSpeed/1.8.1 Open (lsquic 4.0.8, modgzip 1.1, cache 1.65, mod_security 1.4 (with libmodsecurity v3.0.12)) BUILD (built: Thu Mar 28 15:46:53 UTC 2024) ...
+2025-12-17 11:25:41.811095 [NOTICE] Using [BoringSSL]
+2025-12-17 11:25:41.814204 [NOTICE] [ADMIN] server socket: uds://usr/local/lsws/admin/tmp/admin.sock.7513, fd 6.
+2025-12-17 11:25:41.814759 [NOTICE] [35] chroot is disabled.
+2025-12-17 11:25:41.814973 [INFO] [35] old priority: 0, new priority: 0
+2025-12-17 11:25:41.816096 [INFO] [35] [config:server:basics2] For better obscurity, server version number is hidden in the response header.
+2025-12-17 11:25:41.828992 [INFO] [35] [PlainConf] Failed to RCS checkin conf file /usr/local/lsws/conf/mime.properties0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/conf/mime.properties0" -mUpdate "/usr/local/lsws/conf/mime.properties0" >/dev/null 2>&1.
+2025-12-17 11:25:41.829327 [INFO] [35] setuid is allowed in Ext Apps
+2025-12-17 11:25:41.831107 [NOTICE] [35] [PID: 35]: forked cgid: 42
+2025-12-17 11:25:41.831493 [INFO] [35] Download QUIC.cloud whitelist IP to tmp/download-quic-cloud-ips ...
+2025-12-17 11:25:42.741165 [INFO] [35] Add QUIC.cloud IPs from admin/conf/quic-cloud-ips to trusted ACL ...
+2025-12-17 11:25:42.741675 [INFO] [35] Add CloudFlare Subnets to trusted ACL ...
+2025-12-17 11:25:42.742002 [INFO] [35] [PlainConf] [adminConfig:] start parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 11:25:42.747067 [INFO] [35] [PlainConf] [adminConfig:] Failed to RCS checkin conf file /usr/local/lsws/admin/conf/admin_config.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/admin/conf/admin_config.conf0" -mUpdate "/usr/local/lsws/admin/conf/admin_config.conf0" >/dev/null 2>&1.
+2025-12-17 11:25:42.747347 [INFO] [35] [PlainConf] [adminConfig:] Finished parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 11:25:42.749986 [INFO] [35] QuicEngine::init(), pid: 35, log level [warn].
+2025-12-17 11:25:42.752946 [INFO] [35] [Module: modcompress 1.1] has been initialized successfully
+2025-12-17 11:25:42.753345 [INFO] [35] [Module: moddecompress 1.1] has been initialized successfully
+2025-12-17 11:25:42.754389 [INFO] [35] [Module: cache 1.65] has been initialized successfully
+2025-12-17 11:25:42.755436 [NOTICE] [35] Created new Listener [adminListener].
+2025-12-17 11:25:42.755757 [NOTICE] [35] [*:7080] enabled QUIC UDP
+2025-12-17 11:25:42.756055 [INFO] [35] [*:8088] Enable SO_REUSEPORT .
+2025-12-17 11:25:42.756441 [NOTICE] [35] [*:8088] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:25:42.756992 [NOTICE] [35] Created new Listener [Default].
+2025-12-17 11:25:42.757327 [INFO] [35] [*:80] Enable SO_REUSEPORT .
+2025-12-17 11:25:42.757562 [NOTICE] [35] [*:80] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:25:42.757925 [NOTICE] [35] Created new Listener [HTTP].
+2025-12-17 11:25:42.758742 [INFO] [35] [*:443] Enable SO_REUSEPORT .
+2025-12-17 11:25:42.759044 [NOTICE] [35] [*:443] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:25:42.759533 [NOTICE] [35] Created new Listener [HTTPS].
+2025-12-17 11:25:42.759997 [INFO] [35] [*:443] Enable SO_REUSEPORT .
+2025-12-17 11:25:42.760288 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #1 socket started, fd: 47
+2025-12-17 11:25:42.760598 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #2 socket started, fd: 48
+2025-12-17 11:25:42.760823 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #3 socket started, fd: 49
+2025-12-17 11:25:42.761027 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #4 socket started, fd: 50
+2025-12-17 11:25:42.761408 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #5 socket started, fd: 51
+2025-12-17 11:25:42.761673 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #6 socket started, fd: 52
+2025-12-17 11:25:42.761953 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #7 socket started, fd: 53
+2025-12-17 11:25:42.762264 [NOTICE] [35] [UDP *:443] SO_REUSEPORT #8 socket started, fd: 54
+2025-12-17 11:25:42.762494 [NOTICE] [35] [*:443] enabled QUIC UDP
+2025-12-17 11:25:42.762736 [NOTICE] [35] The maximum number of file descriptor limit is set to 1048576.
+2025-12-17 11:25:42.767476 [NOTICE] [35] [config:server:python] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 11:25:42.768009 [NOTICE] [35] [config:server:nodejs] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 11:25:42.775201 [INFO] [35] [PlainConf] [virtualHostConfig:] start parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 11:25:42.802134 [INFO] [35] [PlainConf] [virtualHostConfig:] Failed to RCS checkin conf file /usr/local/lsws/conf/vhosts/Example/vhconf.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/conf/vhosts/Example/vhconf.conf0" -mUpdate "/usr/local/lsws/conf/vhosts/Example/vhconf.conf0" >/dev/null 2>&1.
+2025-12-17 11:25:42.802534 [INFO] [35] [PlainConf] [virtualHostConfig:] Finished parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 11:25:42.802790 [INFO] [35] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:25:42.807472 [WARN] [35] [config:server:vhosts:vhost:Example] Uid of /usr/local/lsws/Example/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 11:25:42.807714 [WARN] [35] [config:server:vhosts:vhost:Example] Gid of /usr/local/lsws/Example/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 11:25:42.815133 [INFO] [35] [config:server:vhosts:vhost:Example] config context /.
+2025-12-17 11:25:42.815507 [INFO] [35] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 11:25:42.815791 [INFO] [35] [config:server:vhosts:vhost:Example] config context /blocked/.
+2025-12-17 11:25:42.816047 [INFO] [35] [config:server:vhosts:vhost:Example] config context /cgi-bin/.
+2025-12-17 11:25:42.816359 [INFO] [35] [config:server:vhosts:vhost:Example] config context /docs/.
+2025-12-17 11:25:42.816668 [INFO] [35] [config:server:vhosts:vhost:Example] config context /protected/.
+2025-12-17 11:25:42.818329 [INFO] [35] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 11:25:42.837527 [INFO] [35] [PlainConf] [virtualHostTemplate:] Failed to RCS checkin conf file /usr/local/lsws/conf/templates/ccl.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/conf/templates/ccl.conf0" -mUpdate "/usr/local/lsws/conf/templates/ccl.conf0" >/dev/null 2>&1.
+2025-12-17 11:25:42.837772 [INFO] [35] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 11:25:42.837993 [INFO] [35] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:25:42.842507 [INFO] [35] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 11:25:42.880722 [INFO] [35] [PlainConf] [virtualHostTemplate:] Failed to RCS checkin conf file /usr/local/lsws/conf/templates/rails.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/conf/templates/rails.conf0" -mUpdate "/usr/local/lsws/conf/templates/rails.conf0" >/dev/null 2>&1.
+2025-12-17 11:25:42.881064 [INFO] [35] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 11:25:42.881307 [INFO] [35] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:25:42.887491 [INFO] [35] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 11:25:42.917014 [INFO] [35] [PlainConf] [virtualHostTemplate:] Failed to RCS checkin conf file /usr/local/lsws/conf/templates/docker.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/conf/templates/docker.conf0" -mUpdate "/usr/local/lsws/conf/templates/docker.conf0" >/dev/null 2>&1.
+2025-12-17 11:25:42.921154 [INFO] [35] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 11:25:42.921485 [INFO] [35] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:25:42.933021 [ERROR] [35] Path for certificate file is invalid: /root/.acme.sh/certs/localhost_ecc/fullchain.cer
+2025-12-17 11:25:42.933607 [INFO] [35] [config:template:localhost:vhost:localhost] config context /.
+2025-12-17 11:25:42.933973 [INFO] [35] Rewrite file [/var/www/vhosts/localhost/html/.htaccess] can not open.
+2025-12-17 11:25:42.934179 [INFO] [35] RewriteFile [.htaccess] parsed, return -1.
+2025-12-17 11:25:42.934684 [NOTICE] [35] [ZConfManager] No VHosts added, do not send!
+2025-12-17 11:25:42.935571 [NOTICE] [35] Instance is ready for service. m_fdCmd 59, m_fdAdmin 6.
+2025-12-17 11:25:42.936209 [NOTICE] [35] [AutoRestarter] new child process with pid=58 is forked!
+2025-12-17 11:25:42.937005 [INFO] [58] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.937517 [INFO] [58] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.937722 [NOTICE] [35] [AutoRestarter] new child process with pid=59 is forked!
+2025-12-17 11:25:42.938760 [INFO] [59] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.938339 [INFO] [58] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.939718 [NOTICE] [35] [AutoRestarter] new child process with pid=60 is forked!
+2025-12-17 11:25:42.940616 [INFO] [60] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.942198 [INFO] [59] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.943431 [INFO] [58] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.945818 [NOTICE] [35] [AutoRestarter] new child process with pid=61 is forked!
+2025-12-17 11:25:42.946451 [INFO] [61] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.947702 [INFO] [60] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.951178 [INFO] [59] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.951926 [INFO] [58] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.954362 [INFO] [58] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.952864 [NOTICE] [35] [AutoRestarter] new child process with pid=62 is forked!
+2025-12-17 11:25:42.953250 [INFO] [61] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.953459 [INFO] [62] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.955785 [INFO] [62] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.953633 [INFO] [60] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.956310 [INFO] [60] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.954061 [INFO] [59] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.956840 [INFO] [59] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.954605 [INFO] [58] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.955102 [INFO] [61] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.955596 [NOTICE] [35] [AutoRestarter] new child process with pid=63 is forked!
+2025-12-17 11:25:42.956093 [INFO] [62] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.956492 [INFO] [63] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.956553 [INFO] [60] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.957089 [INFO] [59] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.957398 [NOTICE] [58] [*:8088] Worker #1 activates SO_REUSEPORT #1 socket, fd: 23
+2025-12-17 11:25:42.957620 [INFO] [61] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.958198 [INFO] [62] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.959622 [NOTICE] [35] [AutoRestarter] new child process with pid=64 is forked!
+2025-12-17 11:25:42.959770 [INFO] [63] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.960130 [INFO] [60] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.964368 [INFO] [60] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.960426 [INFO] [59] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.960725 [INFO] [58] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.960732 [INFO] [64] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.961034 [INFO] [61] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.961333 [INFO] [62] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.961909 [INFO] [63] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.963891 [NOTICE] [35] [AutoRestarter] new child process with pid=65 is forked!
+2025-12-17 11:25:42.965317 [NOTICE] [60] [*:8088] Worker #3 activates SO_REUSEPORT #3 socket, fd: 25
+2025-12-17 11:25:42.965538 [INFO] [65] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:25:42.965691 [NOTICE] [59] [*:8088] Worker #2 activates SO_REUSEPORT #2 socket, fd: 24
+2025-12-17 11:25:42.965956 [INFO] [58] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.968208 [INFO] [58] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.966214 [INFO] [64] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.968686 [INFO] [64] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.966448 [INFO] [61] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.966675 [INFO] [62] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.966910 [INFO] [63] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.967427 [INFO] [60] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.967661 [INFO] [65] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:25:42.967941 [INFO] [59] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.968449 [INFO] [58] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:42.970749 [INFO] [58] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:42.968942 [INFO] [64] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.969160 [INFO] [61] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.969534 [INFO] [62] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.969775 [INFO] [63] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.970009 [INFO] [60] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.972181 [INFO] [60] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.970276 [INFO] [65] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:25:42.970468 [INFO] [59] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.972983 [INFO] [59] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.970996 [INFO] [58] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:42.971230 [INFO] [64] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.973869 [INFO] [64] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.971444 [NOTICE] [61] [*:8088] Worker #4 activates SO_REUSEPORT #4 socket, fd: 26
+2025-12-17 11:25:42.971694 [NOTICE] [62] [*:8088] Worker #5 activates SO_REUSEPORT #5 socket, fd: 27
+2025-12-17 11:25:42.971926 [INFO] [63] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.972407 [INFO] [60] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:42.975464 [INFO] [60] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:42.972631 [INFO] [65] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:25:42.973237 [INFO] [59] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:42.973630 [INFO] [58] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:42.974089 [INFO] [64] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.974380 [INFO] [61] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.977316 [INFO] [61] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.974622 [INFO] [62] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.975220 [INFO] [63] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:25:42.982112 [NOTICE] [63] [*:8088] Worker #6 activates SO_REUSEPORT #6 socket, fd: 28
+2025-12-17 11:25:42.975689 [INFO] [60] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:42.976007 [INFO] [65] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:25:42.976332 [INFO] [59] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:42.976641 [NOTICE] [58] [*:80] Worker #1 activates SO_REUSEPORT #1 socket, fd: 31
+2025-12-17 11:25:42.976992 [NOTICE] [64] [*:8088] Worker #7 activates SO_REUSEPORT #7 socket, fd: 29
+2025-12-17 11:25:42.978798 [INFO] [61] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.985279 [INFO] [61] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:42.979636 [INFO] [62] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.985731 [INFO] [62] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.983468 [INFO] [63] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.983981 [INFO] [60] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:42.986580 [NOTICE] [60] [*:80] Worker #3 activates SO_REUSEPORT #3 socket, fd: 33
+2025-12-17 11:25:42.984349 [INFO] [65] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:25:42.984590 [INFO] [59] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:42.987215 [INFO] [59] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:42.984871 [INFO] [58] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:42.985084 [INFO] [64] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.985491 [INFO] [61] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:42.986044 [INFO] [62] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.988297 [INFO] [62] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:42.986341 [INFO] [63] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.988790 [INFO] [63] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.986830 [INFO] [60] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:42.989256 [INFO] [60] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:42.987029 [INFO] [65] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:25:42.987401 [NOTICE] [59] [*:80] Worker #2 activates SO_REUSEPORT #2 socket, fd: 32
+2025-12-17 11:25:42.987659 [INFO] [58] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:42.990112 [INFO] [58] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:42.987905 [INFO] [64] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.988098 [INFO] [61] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:42.990683 [INFO] [61] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:42.988484 [INFO] [62] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:42.991037 [INFO] [62] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:42.989058 [INFO] [63] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.989438 [INFO] [60] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:42.991698 [INFO] [60] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:42.989696 [NOTICE] [65] [*:8088] Worker #8 activates SO_REUSEPORT #8 socket, fd: 30
+2025-12-17 11:25:42.989912 [INFO] [59] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:42.992345 [INFO] [59] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:42.990329 [INFO] [58] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:42.990517 [INFO] [64] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.990844 [NOTICE] [61] [*:80] Worker #4 activates SO_REUSEPORT #4 socket, fd: 34
+2025-12-17 11:25:42.991239 [NOTICE] [62] [*:80] Worker #5 activates SO_REUSEPORT #5 socket, fd: 35
+2025-12-17 11:25:42.991478 [INFO] [63] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:42.991929 [INFO] [60] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:42.993882 [INFO] [60] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:42.992185 [INFO] [65] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:25:42.992510 [INFO] [59] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:42.992739 [INFO] [58] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:42.994932 [INFO] [58] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:42.992959 [INFO] [64] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.993368 [INFO] [61] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:42.996358 [INFO] [61] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:42.993460 [INFO] [62] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:42.993640 [INFO] [63] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:42.998126 [INFO] [63] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:42.994179 [INFO] [60] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:42.994433 [INFO] [65] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:25:42.998995 [INFO] [65] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:25:42.994636 [INFO] [59] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:42.999504 [INFO] [59] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:42.995330 [INFO] [58] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:42.996059 [INFO] [64] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:43.000736 [INFO] [64] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:42.996987 [INFO] [61] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:42.997632 [INFO] [62] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:42.998453 [NOTICE] [63] [*:80] Worker #6 activates SO_REUSEPORT #6 socket, fd: 36
+2025-12-17 11:25:42.998738 [NOTICE] [60] [*:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 41
+2025-12-17 11:25:42.999249 [INFO] [65] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:25:42.999980 [INFO] [59] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:43.004161 [INFO] [59] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:43.000412 [NOTICE] [58] [*:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 39
+2025-12-17 11:25:43.000972 [INFO] [64] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:25:43.001406 [INFO] [61] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:43.006247 [INFO] [61] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:43.001692 [INFO] [62] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:43.007354 [INFO] [62] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:43.002056 [INFO] [63] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:43.003553 [INFO] [60] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.008073 [INFO] [60] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.003933 [INFO] [65] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:25:43.008882 [INFO] [65] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:25:43.004549 [NOTICE] [59] [*:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 40
+2025-12-17 11:25:43.005163 [INFO] [58] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.009997 [INFO] [58] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.005703 [NOTICE] [64] [*:80] Worker #7 activates SO_REUSEPORT #7 socket, fd: 37
+2025-12-17 11:25:43.006967 [INFO] [61] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:43.007601 [INFO] [62] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:43.007836 [INFO] [63] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:43.008325 [INFO] [60] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.009144 [INFO] [65] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:25:43.012507 [NOTICE] [65] [*:80] Worker #8 activates SO_REUSEPORT #8 socket, fd: 38
+2025-12-17 11:25:43.009801 [INFO] [59] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.010387 [INFO] [58] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.010667 [INFO] [64] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:43.010978 [INFO] [61] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:43.011778 [INFO] [62] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:43.015607 [INFO] [62] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:43.012027 [INFO] [63] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:43.016134 [INFO] [63] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:43.012254 [INFO] [60] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.016805 [INFO] [60] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.012979 [INFO] [65] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:25:43.017315 [INFO] [65] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:43.013301 [INFO] [59] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.017754 [INFO] [59] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.014063 [INFO] [58] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.015045 [INFO] [64] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:25:43.015320 [NOTICE] [61] [*:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 42
+2025-12-17 11:25:43.015847 [NOTICE] [62] [*:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 43
+2025-12-17 11:25:43.016415 [INFO] [63] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:43.017034 [INFO] [60] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.019304 [INFO] [60] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.017529 [INFO] [65] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:43.017978 [INFO] [59] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.018218 [INFO] [58] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.018455 [INFO] [64] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:25:43.018691 [INFO] [61] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.018935 [INFO] [62] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.019131 [INFO] [63] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:43.019493 [NOTICE] [60] [UDP *:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 49
+2025-12-17 11:25:43.019687 [INFO] [65] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:43.019897 [INFO] [59] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.020125 [INFO] [58] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.021988 [INFO] [58] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.020314 [INFO] [64] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:25:43.020576 [INFO] [61] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.022658 [INFO] [61] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.020807 [INFO] [62] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.021043 [INFO] [63] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:43.023604 [NOTICE] [63] [*:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 44
+2025-12-17 11:25:43.021300 [INFO] [60] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.021527 [INFO] [65] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:43.021767 [INFO] [59] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.022216 [NOTICE] [58] [UDP *:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 47
+2025-12-17 11:25:43.022426 [INFO] [64] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:25:43.024857 [INFO] [64] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:43.022877 [INFO] [61] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.023280 [INFO] [62] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.023849 [INFO] [63] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.024053 [NOTICE] [60] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.024258 [INFO] [65] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:25:43.024458 [INFO] [59] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.024737 [INFO] [58] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.025027 [INFO] [64] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:25:43.025235 [INFO] [61] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.027102 [INFO] [61] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.025459 [INFO] [62] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.025715 [INFO] [63] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.026198 [INFO] [65] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:25:43.027928 [NOTICE] [65] [*:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 46
+2025-12-17 11:25:43.026468 [NOTICE] [59] [UDP *:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 48
+2025-12-17 11:25:43.026630 [NOTICE] [60] Successfully change current user to nobody
+2025-12-17 11:25:43.026715 [INFO] [58] [UDP:0.0.0.0:7080] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.026890 [NOTICE] [64] [*:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 45
+2025-12-17 11:25:43.027292 [INFO] [61] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.027486 [INFO] [62] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.027708 [INFO] [63] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.030878 [INFO] [63] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.028411 [INFO] [65] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.028664 [INFO] [59] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.028874 [NOTICE] [60] Core dump is enabled.
+2025-12-17 11:25:43.029402 [INFO] [64] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:25:43.029528 [NOTICE] [61] [UDP *:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 50
+2025-12-17 11:25:43.029626 [NOTICE] [58] Successfully change current user to nobody
+2025-12-17 11:25:43.030606 [INFO] [62] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.031151 [INFO] [63] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.031413 [INFO] [65] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.031665 [NOTICE] [59] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.032146 [NOTICE] [60] Setup swapping space...
+2025-12-17 11:25:43.032526 [INFO] [64] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:25:43.032948 [INFO] [61] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.033150 [NOTICE] [58] Core dump is enabled.
+2025-12-17 11:25:43.033387 [INFO] [62] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.033658 [INFO] [63] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.037975 [INFO] [63] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.033915 [INFO] [65] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.035121 [NOTICE] [59] Successfully change current user to nobody
+2025-12-17 11:25:43.035277 [INFO] [64] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:25:43.035650 [NOTICE] [61] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.036345 [INFO] [58] [lsphp]: locked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 11:25:43.037295 [NOTICE] [62] [UDP *:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 51
+2025-12-17 11:25:43.038502 [NOTICE] [60] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.038605 [NOTICE] [63] [UDP *:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 52
+2025-12-17 11:25:43.038852 [INFO] [65] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.039121 [NOTICE] [59] Core dump is enabled.
+2025-12-17 11:25:43.039316 [INFO] [64] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:25:43.039819 [INFO] [58] [lsphp] remove unix socket for detached process: /tmp/lshttpd/lsphp.sock
+2025-12-17 11:25:43.040093 [INFO] [62] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.040134 [NOTICE] [61] Successfully change current user to nobody
+2025-12-17 11:25:43.040566 [INFO] [63] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.040771 [INFO] [65] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.041009 [NOTICE] [59] Setup swapping space...
+2025-12-17 11:25:43.041195 [INFO] [64] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:25:43.041693 [NOTICE] [62] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.041650 [NOTICE] [58] [LocalWorker::workerExec] Config[lsphp]: suExec uid 65534 gid 65534 cmd /usr/local/lsws/fcgi-bin/lsphp, final uid 65534 gid 65534, flags: 0.
+2025-12-17 11:25:43.041916 [NOTICE] [61] Core dump is enabled.
+2025-12-17 11:25:43.043715 [NOTICE] [59] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.042133 [NOTICE] [63] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.042402 [INFO] [65] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.044700 [INFO] [65] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:25:43.043006 [INFO] [64] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:25:43.043832 [NOTICE] [61] Setup swapping space...
+2025-12-17 11:25:43.044162 [NOTICE] [62] Successfully change current user to nobody
+2025-12-17 11:25:43.044357 [NOTICE] [58] [lsphp] add child process pid: 66
+2025-12-17 11:25:43.044840 [NOTICE] [63] Successfully change current user to nobody
+2025-12-17 11:25:43.045080 [NOTICE] [65] [UDP *:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 54
+2025-12-17 11:25:43.045318 [INFO] [64] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:25:43.046126 [NOTICE] [62] Core dump is enabled.
+2025-12-17 11:25:43.047582 [NOTICE] [62] Setup swapping space...
+2025-12-17 11:25:43.046559 [NOTICE] [61] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.046723 [INFO] [58] [lsphp]: unlocked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 11:25:43.046894 [NOTICE] [63] Core dump is enabled.
+2025-12-17 11:25:43.047150 [INFO] [65] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.047342 [NOTICE] [64] [UDP *:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 53
+2025-12-17 11:25:43.048517 [NOTICE] [62] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.048692 [INFO] [58] [lsphp.10000]: locked pid file [/tmp/lshttpd/lsphp.sock.10000.pid].
+2025-12-17 11:25:43.048908 [NOTICE] [63] Setup swapping space...
+2025-12-17 11:25:43.049167 [NOTICE] [65] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.051652 [INFO] [64] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:25:43.054799 [NOTICE] [64] Stop listener *:7080, fd 21.
+2025-12-17 11:25:43.053893 [INFO] [58] [lsphp.10000] remove unix socket for detached process: /tmp/lshttpd/lsphp.sock.10000
+2025-12-17 11:25:43.054852 [NOTICE] [65] Successfully change current user to nobody
+2025-12-17 11:25:43.055584 [NOTICE] [58] [LocalWorker::workerExec] VHost:localhost suExec check uid 1000 gid 1000 setuidmode 2.
+2025-12-17 11:25:43.055292 [NOTICE] [63] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.055388 [NOTICE] [64] Successfully change current user to nobody
+2025-12-17 11:25:43.055607 [NOTICE] [65] Core dump is enabled.
+2025-12-17 11:25:43.055834 [INFO] [58] [LocalWorker::workerExec] VHost:localhost suExec check uid 1000 gid 1000 setuidmode 2.
+2025-12-17 11:25:43.056288 [NOTICE] [64] Core dump is enabled.
+2025-12-17 11:25:43.056553 [NOTICE] [65] Setup swapping space...
+2025-12-17 11:25:43.057121 [NOTICE] [64] Setup swapping space...
+2025-12-17 11:25:43.056786 [NOTICE] [58] [LocalWorker::workerExec] Config[lsphp.10000]: suExec uid 1000 gid 1000 cmd /usr/local/lsws/fcgi-bin/lsphp, final uid 1000 gid 1000, flags: 0.
+2025-12-17 11:25:43.057807 [NOTICE] [65] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.058904 [NOTICE] [64] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:25:43.059778 [NOTICE] [58] [lsphp.10000] add child process pid: 67
+2025-12-17 11:25:43.060161 [INFO] [58] [lsphp.10000]: unlocked pid file [/tmp/lshttpd/lsphp.sock.10000.pid].
+2025-12-17 11:25:43.060734 [NOTICE] [58] Setup swapping space...
+2025-12-17 11:25:43.061163 [NOTICE] [58] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:26:43.687919 [NOTICE] [58] [!!!UPDATE!!!] current branch new version 1.8.4.0 is available.
+2025-12-17 11:26:43.694557 [NOTICE] [58] [!!!UPDATE!!!] new stable version 1.8.4.0 is available.
+2025-12-17 11:31:34.646761 [NOTICE] [58] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:31:34.647015 [INFO] [58] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:31:34.647224 [NOTICE] [58] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:31:34.648340 [NOTICE] [58] [AdminPHP] add child process pid: 117
+2025-12-17 11:32:05.090045 [NOTICE] [58] sendKillCmdToWatchdog: 'extappkill:117:-3:0'.
+2025-12-17 11:32:05.784455 [NOTICE] [35] Cmd from child: [extappkill:117:-3:0]
+2025-12-17 11:32:05.784773 [INFO] [35] Failed to get process [117] start time, not running, skip killing.
+2025-12-17 11:36:58.705914 [INFO] [config:server:basics] httpdWorkers: 8, Num of Processors: 8
+2025-12-17 11:36:58.707686 [INFO] [config:server:basics] enableLVE: 0
+2025-12-17 11:36:58.707855 [INFO] [config:server:basics] bubbleWrap: 0, cmd: '(null)'
+2025-12-17 11:36:58.708374 [NOTICE] [testAndFixDirs] "/usr/local/lsws//conf/" own or permission need to be changed.
+2025-12-17 11:36:58.830644 [INFO] [PlainConf] [httpServerConfig:] start parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 11:36:58.830905 [INFO] [PlainConf] [httpServerConfig:] Finished parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 11:36:58.831084 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkprivatecache 1]
+2025-12-17 11:36:58.831281 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkpubliccache 1]
+2025-12-17 11:36:58.831452 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxcacheobjsize 10000000]
+2025-12-17 11:36:58.831909 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxstaleage 200]
+2025-12-17 11:36:58.832081 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [qscache 1]
+2025-12-17 11:36:58.832256 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [reqcookiecache 1]
+2025-12-17 11:36:58.832724 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [respcookiecache 1]
+2025-12-17 11:36:58.832883 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorereqcachectrl 1]
+2025-12-17 11:36:58.833038 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorerespcachectrl 0]
+2025-12-17 11:36:58.833192 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enablecache 0]
+2025-12-17 11:36:58.833354 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [expireinseconds 3600]
+2025-12-17 11:36:58.833505 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enableprivatecache 0]
+2025-12-17 11:36:58.833654 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [privateexpireinseconds 3600]
+2025-12-17 11:36:58.833790 [NOTICE] Loading LiteSpeed/1.8.1 Open (lsquic 4.0.8, modgzip 1.1, cache 1.65, mod_security 1.4 (with libmodsecurity v3.0.12)) BUILD (built: Thu Mar 28 15:46:53 UTC 2024) ...
+2025-12-17 11:36:58.833931 [NOTICE] Using [BoringSSL]
+2025-12-17 11:36:58.836881 [NOTICE] [ADMIN] server socket: uds://usr/local/lsws/admin/tmp/admin.sock.7348, fd 6.
+2025-12-17 11:36:58.837655 [NOTICE] [31] chroot is disabled.
+2025-12-17 11:36:58.838018 [INFO] [31] old priority: 0, new priority: 0
+2025-12-17 11:36:58.838443 [INFO] [31] [config:server:basics2] For better obscurity, server version number is hidden in the response header.
+2025-12-17 11:36:58.848254 [INFO] [31] setuid is allowed in Ext Apps
+2025-12-17 11:36:58.849023 [NOTICE] [31] [PID: 31]: forked cgid: 35
+2025-12-17 11:36:58.849546 [INFO] [31] Download QUIC.cloud whitelist IP to tmp/download-quic-cloud-ips ...
+2025-12-17 11:36:59.741924 [INFO] [31] Add QUIC.cloud IPs from admin/conf/quic-cloud-ips to trusted ACL ...
+2025-12-17 11:36:59.742313 [INFO] [31] Add CloudFlare Subnets to trusted ACL ...
+2025-12-17 11:36:59.742582 [INFO] [31] [PlainConf] [adminConfig:] start parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 11:36:59.745919 [INFO] [31] [PlainConf] [adminConfig:] Failed to RCS checkin conf file /usr/local/lsws/admin/conf/admin_config.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/admin/conf/admin_config.conf0" -mUpdate "/usr/local/lsws/admin/conf/admin_config.conf0" >/dev/null 2>&1.
+2025-12-17 11:36:59.746103 [INFO] [31] [PlainConf] [adminConfig:] Finished parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 11:36:59.746682 [INFO] [31] QuicEngine::init(), pid: 31, log level [warn].
+2025-12-17 11:36:59.748072 [INFO] [31] [Module: modcompress 1.1] has been initialized successfully
+2025-12-17 11:36:59.748324 [INFO] [31] [Module: moddecompress 1.1] has been initialized successfully
+2025-12-17 11:36:59.748540 [INFO] [31] [Module: cache 1.65] has been initialized successfully
+2025-12-17 11:36:59.749076 [NOTICE] [31] Created new Listener [adminListener].
+2025-12-17 11:36:59.749260 [NOTICE] [31] [*:7080] enabled QUIC UDP
+2025-12-17 11:36:59.749459 [INFO] [31] [*:8088] Enable SO_REUSEPORT .
+2025-12-17 11:36:59.749636 [NOTICE] [31] [*:8088] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:36:59.749840 [NOTICE] [31] Created new Listener [Default].
+2025-12-17 11:36:59.749971 [INFO] [31] [*:80] Enable SO_REUSEPORT .
+2025-12-17 11:36:59.750090 [NOTICE] [31] [*:80] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:36:59.751052 [NOTICE] [31] Created new Listener [HTTP].
+2025-12-17 11:36:59.751426 [INFO] [31] [*:443] Enable SO_REUSEPORT .
+2025-12-17 11:36:59.751557 [NOTICE] [31] [*:443] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:36:59.752634 [NOTICE] [31] Created new Listener [HTTPS].
+2025-12-17 11:36:59.752796 [INFO] [31] [*:443] Enable SO_REUSEPORT .
+2025-12-17 11:36:59.752948 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #1 socket started, fd: 47
+2025-12-17 11:36:59.753148 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #2 socket started, fd: 48
+2025-12-17 11:36:59.753308 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #3 socket started, fd: 49
+2025-12-17 11:36:59.753482 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #4 socket started, fd: 50
+2025-12-17 11:36:59.753620 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #5 socket started, fd: 51
+2025-12-17 11:36:59.753765 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #6 socket started, fd: 52
+2025-12-17 11:36:59.754389 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #7 socket started, fd: 53
+2025-12-17 11:36:59.754529 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #8 socket started, fd: 54
+2025-12-17 11:36:59.754649 [NOTICE] [31] [*:443] enabled QUIC UDP
+2025-12-17 11:36:59.754774 [NOTICE] [31] The maximum number of file descriptor limit is set to 1048576.
+2025-12-17 11:36:59.757616 [NOTICE] [31] [config:server:python] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 11:36:59.757757 [NOTICE] [31] [config:server:nodejs] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 11:36:59.761608 [INFO] [31] [PlainConf] [virtualHostConfig:] start parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 11:36:59.768295 [INFO] [31] [PlainConf] [virtualHostConfig:] Finished parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 11:36:59.768483 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:36:59.771249 [WARN] [31] [config:server:vhosts:vhost:Example] Uid of /usr/local/lsws/Example/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 11:36:59.771399 [WARN] [31] [config:server:vhosts:vhost:Example] Gid of /usr/local/lsws/Example/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 11:36:59.775615 [INFO] [31] [config:server:vhosts:vhost:Example] config context /.
+2025-12-17 11:36:59.775854 [INFO] [31] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 11:36:59.776011 [INFO] [31] [config:server:vhosts:vhost:Example] config context /blocked/.
+2025-12-17 11:36:59.776144 [INFO] [31] [config:server:vhosts:vhost:Example] config context /cgi-bin/.
+2025-12-17 11:36:59.776290 [INFO] [31] [config:server:vhosts:vhost:Example] config context /docs/.
+2025-12-17 11:36:59.776446 [INFO] [31] [config:server:vhosts:vhost:Example] config context /protected/.
+2025-12-17 11:36:59.777319 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 11:36:59.781842 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 11:36:59.782017 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:36:59.785051 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 11:36:59.789948 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 11:36:59.790118 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:36:59.793087 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 11:36:59.798117 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 11:36:59.798283 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:36:59.800731 [WARN] [31] [config:template:localhost:vhost:localhost] Uid of /var/www/vhosts/localhost/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 11:36:59.800872 [WARN] [31] [config:template:localhost:vhost:localhost] Gid of /var/www/vhosts/localhost/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 11:36:59.802487 [ERROR] [31] Path for certificate file is invalid: /root/.acme.sh/certs/localhost_ecc/fullchain.cer
+2025-12-17 11:36:59.802712 [INFO] [31] [config:template:localhost:vhost:localhost] config context /.
+2025-12-17 11:36:59.804301 [INFO] [31] Rewrite directive: <IfModule mod_rewrite.c> bypassed.
+2025-12-17 11:36:59.804460 [INFO] [31] Rewrite directive: </IfModule> bypassed.
+2025-12-17 11:36:59.804711 [INFO] [31] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 11:36:59.805043 [NOTICE] [31] [ZConfManager] No VHosts added, do not send!
+2025-12-17 11:36:59.806097 [NOTICE] [31] Instance is ready for service. m_fdCmd 59, m_fdAdmin 6.
+2025-12-17 11:36:59.806767 [NOTICE] [31] [AutoRestarter] new child process with pid=39 is forked!
+2025-12-17 11:36:59.807435 [INFO] [39] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.807686 [INFO] [39] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.807411 [NOTICE] [31] [AutoRestarter] new child process with pid=40 is forked!
+2025-12-17 11:36:59.807826 [INFO] [40] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.808288 [INFO] [40] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.807890 [INFO] [39] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.808695 [INFO] [39] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.808369 [NOTICE] [31] [AutoRestarter] new child process with pid=41 is forked!
+2025-12-17 11:36:59.808506 [INFO] [40] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.809241 [INFO] [40] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.808866 [INFO] [39] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.809658 [INFO] [39] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.809036 [INFO] [41] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.810036 [INFO] [41] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.809287 [NOTICE] [31] [AutoRestarter] new child process with pid=42 is forked!
+2025-12-17 11:36:59.809433 [INFO] [40] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.809848 [INFO] [39] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.810039 [INFO] [42] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.810226 [INFO] [41] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.810584 [INFO] [40] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.810756 [NOTICE] [39] [*:8088] Worker #1 activates SO_REUSEPORT #1 socket, fd: 23
+2025-12-17 11:36:59.810936 [INFO] [42] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.811627 [INFO] [42] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.811026 [NOTICE] [31] [AutoRestarter] new child process with pid=43 is forked!
+2025-12-17 11:36:59.811122 [INFO] [41] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.812082 [INFO] [41] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.811306 [INFO] [40] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.811479 [INFO] [39] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.812545 [INFO] [39] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.811748 [INFO] [43] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.812850 [INFO] [43] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.811787 [INFO] [42] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.813119 [INFO] [44] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.812245 [INFO] [41] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.813461 [INFO] [41] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.812392 [NOTICE] [40] [*:8088] Worker #2 activates SO_REUSEPORT #2 socket, fd: 24
+2025-12-17 11:36:59.812652 [NOTICE] [31] [AutoRestarter] new child process with pid=44 is forked!
+2025-12-17 11:36:59.812691 [INFO] [39] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.814074 [INFO] [39] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.812995 [INFO] [43] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.814402 [INFO] [43] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.813141 [INFO] [42] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.813302 [INFO] [44] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.814845 [INFO] [44] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.813633 [NOTICE] [41] [*:8088] Worker #3 activates SO_REUSEPORT #3 socket, fd: 25
+2025-12-17 11:36:59.815168 [INFO] [41] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.813792 [INFO] [40] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.815472 [INFO] [40] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.814249 [INFO] [39] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.815756 [INFO] [39] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.814251 [NOTICE] [31] [AutoRestarter] new child process with pid=45 is forked!
+2025-12-17 11:36:59.814550 [INFO] [43] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.814700 [INFO] [42] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.816340 [NOTICE] [31] [AutoRestarter] new child process with pid=46 is forked!
+2025-12-17 11:36:59.814842 [INFO] [45] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.814992 [INFO] [44] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.816829 [INFO] [44] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.815323 [INFO] [41] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.815616 [INFO] [40] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.817317 [INFO] [40] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.815896 [INFO] [39] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.817623 [NOTICE] [39] [*:80] Worker #1 activates SO_REUSEPORT #1 socket, fd: 31
+2025-12-17 11:36:59.816208 [INFO] [43] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.817906 [INFO] [43] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.816382 [INFO] [42] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.816671 [INFO] [45] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.818325 [INFO] [45] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.816939 [INFO] [46] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:36:59.818579 [INFO] [46] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:36:59.817001 [INFO] [44] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.818854 [INFO] [44] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.817165 [INFO] [41] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.819130 [INFO] [41] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.817469 [INFO] [40] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.819407 [INFO] [40] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.817777 [INFO] [39] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.819694 [INFO] [39] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.818042 [NOTICE] [43] [*:8088] Worker #5 activates SO_REUSEPORT #5 socket, fd: 27
+2025-12-17 11:36:59.818205 [NOTICE] [42] [*:8088] Worker #4 activates SO_REUSEPORT #4 socket, fd: 26
+2025-12-17 11:36:59.818438 [INFO] [45] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.820281 [INFO] [45] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.818719 [INFO] [46] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:36:59.820558 [INFO] [46] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:36:59.818989 [NOTICE] [44] [*:8088] Worker #6 activates SO_REUSEPORT #6 socket, fd: 28
+2025-12-17 11:36:59.819264 [INFO] [41] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.820996 [INFO] [41] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.819552 [INFO] [40] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.821266 [NOTICE] [40] [*:80] Worker #2 activates SO_REUSEPORT #2 socket, fd: 32
+2025-12-17 11:36:59.819830 [INFO] [39] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.821556 [INFO] [39] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.819979 [INFO] [43] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.821876 [INFO] [43] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.820154 [INFO] [42] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.822168 [INFO] [42] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.820409 [INFO] [45] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.822461 [INFO] [45] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:36:59.820693 [INFO] [46] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:36:59.822725 [INFO] [46] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:36:59.820837 [INFO] [44] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.823006 [INFO] [44] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.821131 [INFO] [41] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.823295 [NOTICE] [41] [*:80] Worker #3 activates SO_REUSEPORT #3 socket, fd: 33
+2025-12-17 11:36:59.821417 [INFO] [40] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.821732 [INFO] [39] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.823738 [INFO] [39] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.822010 [INFO] [43] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.824034 [INFO] [43] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.822328 [INFO] [42] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.822590 [NOTICE] [45] [*:8088] Worker #7 activates SO_REUSEPORT #7 socket, fd: 29
+2025-12-17 11:36:59.822861 [INFO] [46] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:36:59.823146 [INFO] [44] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.824694 [INFO] [44] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.823460 [INFO] [41] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.824982 [INFO] [41] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.823584 [INFO] [40] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.825253 [INFO] [40] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.823876 [INFO] [39] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.825521 [NOTICE] [39] [*:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 39
+2025-12-17 11:36:59.824167 [INFO] [43] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.825785 [INFO] [43] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.824307 [INFO] [42] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.826046 [INFO] [42] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.824438 [INFO] [45] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.826331 [INFO] [45] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.824556 [NOTICE] [46] [*:8088] Worker #8 activates SO_REUSEPORT #8 socket, fd: 30
+2025-12-17 11:36:59.824835 [INFO] [44] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.826751 [INFO] [44] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.825118 [INFO] [41] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.827019 [INFO] [41] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.825383 [INFO] [40] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.827299 [INFO] [40] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.825660 [INFO] [39] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.827579 [INFO] [39] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.825912 [INFO] [43] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.827846 [NOTICE] [43] [*:80] Worker #5 activates SO_REUSEPORT #5 socket, fd: 35
+2025-12-17 11:36:59.826176 [INFO] [42] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.828130 [INFO] [42] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.826472 [INFO] [45] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.828403 [INFO] [45] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.826622 [INFO] [46] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:36:59.828670 [INFO] [46] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:36:59.826880 [INFO] [44] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.828931 [NOTICE] [44] [*:80] Worker #6 activates SO_REUSEPORT #6 socket, fd: 36
+2025-12-17 11:36:59.827157 [INFO] [41] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.829218 [INFO] [41] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.827436 [INFO] [40] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.829519 [INFO] [40] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.827713 [INFO] [39] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.829825 [INFO] [39] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.828001 [INFO] [43] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.830118 [INFO] [43] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.828267 [NOTICE] [42] [*:80] Worker #4 activates SO_REUSEPORT #4 socket, fd: 34
+2025-12-17 11:36:59.828537 [INFO] [45] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.830612 [INFO] [45] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.828801 [INFO] [46] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:36:59.830923 [INFO] [46] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:36:59.829079 [INFO] [44] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.831209 [INFO] [44] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.829365 [INFO] [41] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.829679 [NOTICE] [40] [*:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 40
+2025-12-17 11:36:59.829970 [INFO] [39] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.831768 [INFO] [39] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.830288 [INFO] [43] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.832044 [INFO] [43] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.830456 [INFO] [42] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.832321 [INFO] [42] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.830771 [INFO] [45] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:36:59.832585 [NOTICE] [45] [*:80] Worker #7 activates SO_REUSEPORT #7 socket, fd: 37
+2025-12-17 11:36:59.831068 [INFO] [46] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:36:59.832859 [INFO] [46] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:36:59.831345 [INFO] [44] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.833120 [INFO] [44] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.831488 [NOTICE] [41] [*:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 41
+2025-12-17 11:36:59.831639 [INFO] [40] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.833528 [INFO] [40] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.831903 [INFO] [39] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.833793 [NOTICE] [39] [UDP *:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 47
+2025-12-17 11:36:59.832183 [INFO] [43] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.834068 [INFO] [43] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.832450 [INFO] [42] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.834359 [INFO] [42] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.832738 [INFO] [45] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.834629 [INFO] [45] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.832985 [INFO] [46] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:36:59.834902 [NOTICE] [46] [*:80] Worker #8 activates SO_REUSEPORT #8 socket, fd: 38
+2025-12-17 11:36:59.833253 [INFO] [44] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.835163 [INFO] [44] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.833400 [INFO] [41] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.835433 [INFO] [41] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.833663 [INFO] [40] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.833954 [INFO] [39] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.834220 [INFO] [43] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.836273 [NOTICE] [43] [*:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 43
+2025-12-17 11:36:59.834489 [INFO] [42] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.836653 [INFO] [42] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.834762 [INFO] [45] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.836987 [INFO] [45] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.835116 [INFO] [46] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:36:59.837293 [INFO] [46] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:36:59.835296 [INFO] [44] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.837588 [NOTICE] [44] [*:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 44
+2025-12-17 11:36:59.835569 [INFO] [41] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.837876 [INFO] [41] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.835884 [INFO] [40] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.836085 [INFO] [39] [UDP:0.0.0.0:7080] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.836483 [INFO] [43] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.836827 [INFO] [42] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.837142 [INFO] [45] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.838788 [INFO] [45] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.837439 [INFO] [46] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:36:59.839090 [INFO] [46] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:36:59.837738 [INFO] [44] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.839374 [INFO] [44] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.838034 [INFO] [41] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.839648 [INFO] [41] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.838186 [INFO] [40] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.839920 [INFO] [40] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.838489 [INFO] [43] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.840191 [INFO] [43] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.838643 [NOTICE] [42] [*:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 42
+2025-12-17 11:36:59.838945 [INFO] [45] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:36:59.840599 [NOTICE] [45] [*:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 45
+2025-12-17 11:36:59.838986 [NOTICE] [39] Successfully change current user to nobody
+2025-12-17 11:36:59.839230 [INFO] [46] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:36:59.841014 [INFO] [46] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:36:59.839509 [INFO] [44] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.841286 [INFO] [44] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.839781 [INFO] [41] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.841556 [NOTICE] [41] [UDP *:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 49
+2025-12-17 11:36:59.840055 [INFO] [40] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.841837 [NOTICE] [40] [UDP *:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 48
+2025-12-17 11:36:59.840323 [INFO] [43] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.842109 [INFO] [43] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.840465 [INFO] [42] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.842409 [INFO] [42] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.840746 [INFO] [45] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.842699 [INFO] [45] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.840883 [NOTICE] [39] Core dump is enabled.
+2025-12-17 11:36:59.841147 [INFO] [46] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:36:59.843144 [NOTICE] [46] [*:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 46
+2025-12-17 11:36:59.841422 [INFO] [44] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.843431 [INFO] [44] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.841717 [INFO] [41] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.842048 [INFO] [40] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.843870 [NOTICE] [40] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.842267 [INFO] [43] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.844160 [INFO] [43] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.842554 [INFO] [42] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.842840 [INFO] [45] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.843055 [INFO] [39] [lsphp]: locked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 11:36:59.843293 [INFO] [46] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:36:59.844923 [INFO] [46] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:36:59.843571 [INFO] [44] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.843725 [NOTICE] [41] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.844255 [NOTICE] [40] Successfully change current user to nobody
+2025-12-17 11:36:59.844314 [NOTICE] [43] [UDP *:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 51
+2025-12-17 11:36:59.844462 [INFO] [42] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.844628 [INFO] [45] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.845942 [INFO] [45] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.844781 [INFO] [39] [lsphp] remove unix socket for detached process: /tmp/lshttpd/lsphp.sock
+2025-12-17 11:36:59.845065 [INFO] [46] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:36:59.846390 [INFO] [46] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:36:59.845213 [NOTICE] [44] [UDP *:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 52
+2025-12-17 11:36:59.845502 [NOTICE] [40] Core dump is enabled.
+2025-12-17 11:36:59.845518 [NOTICE] [41] Successfully change current user to nobody
+2025-12-17 11:36:59.846968 [NOTICE] [41] Core dump is enabled.
+2025-12-17 11:36:59.845677 [INFO] [43] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.845802 [INFO] [42] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.847379 [INFO] [42] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.846082 [INFO] [45] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.847669 [INFO] [45] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.846339 [NOTICE] [39] [LocalWorker::workerExec] Config[lsphp]: suExec uid 65534 gid 65534 cmd /usr/local/lsws/fcgi-bin/lsphp, final uid 65534 gid 65534, flags: 0.
+2025-12-17 11:36:59.846537 [INFO] [46] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:36:59.848274 [INFO] [46] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:36:59.846711 [INFO] [44] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.846833 [NOTICE] [40] Setup swapping space...
+2025-12-17 11:36:59.847105 [NOTICE] [41] Setup swapping space...
+2025-12-17 11:36:59.847245 [NOTICE] [43] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.847522 [INFO] [42] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:36:59.847808 [NOTICE] [45] [UDP *:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 53
+2025-12-17 11:36:59.848367 [NOTICE] [39] [lsphp] add child process pid: 47
+2025-12-17 11:36:59.848444 [INFO] [46] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:36:59.848611 [NOTICE] [44] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.849398 [NOTICE] [43] Successfully change current user to nobody
+2025-12-17 11:36:59.849417 [NOTICE] [41] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.849481 [NOTICE] [42] [UDP *:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 50
+2025-12-17 11:36:59.849677 [NOTICE] [40] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.849702 [INFO] [45] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.849934 [INFO] [39] [lsphp]: unlocked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 11:36:59.850073 [NOTICE] [46] [UDP *:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 54
+2025-12-17 11:36:59.850408 [NOTICE] [43] Core dump is enabled.
+2025-12-17 11:36:59.850496 [NOTICE] [44] Successfully change current user to nobody
+2025-12-17 11:36:59.850777 [INFO] [42] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.851108 [NOTICE] [45] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.851819 [NOTICE] [39] Setup swapping space...
+2025-12-17 11:36:59.852240 [INFO] [46] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:36:59.852476 [NOTICE] [43] Setup swapping space...
+2025-12-17 11:36:59.852748 [NOTICE] [44] Core dump is enabled.
+2025-12-17 11:36:59.852965 [NOTICE] [42] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.853434 [NOTICE] [45] Successfully change current user to nobody
+2025-12-17 11:36:59.853448 [NOTICE] [39] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.853601 [NOTICE] [46] Stop listener *:7080, fd 21.
+2025-12-17 11:36:59.854135 [NOTICE] [44] Setup swapping space...
+2025-12-17 11:36:59.854342 [NOTICE] [43] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.854637 [NOTICE] [45] Core dump is enabled.
+2025-12-17 11:36:59.854689 [NOTICE] [42] Successfully change current user to nobody
+2025-12-17 11:36:59.855315 [NOTICE] [46] Successfully change current user to nobody
+2025-12-17 11:36:59.855582 [NOTICE] [45] Setup swapping space...
+2025-12-17 11:36:59.855682 [NOTICE] [44] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.855772 [NOTICE] [42] Core dump is enabled.
+2025-12-17 11:36:59.855910 [NOTICE] [46] Core dump is enabled.
+2025-12-17 11:36:59.856431 [NOTICE] [42] Setup swapping space...
+2025-12-17 11:36:59.856529 [NOTICE] [45] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.856574 [NOTICE] [46] Setup swapping space...
+2025-12-17 11:36:59.857179 [NOTICE] [42] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:36:59.857556 [NOTICE] [46] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:37:35.637841 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:37:35.638172 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:37:35.638380 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:37:35.639155 [NOTICE] [39] [AdminPHP] add child process pid: 57
+2025-12-17 11:37:59.718054 [NOTICE] [39] [!!!UPDATE!!!] current branch new version 1.8.4.0 is available.
+2025-12-17 11:37:59.726762 [NOTICE] [39] [!!!UPDATE!!!] new stable version 1.8.4.0 is available.
+2025-12-17 11:38:30.033401 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:57:-3:0'.
+2025-12-17 11:38:30.798719 [NOTICE] [31] Cmd from child: [extappkill:57:-3:0]
+2025-12-17 11:38:30.799076 [INFO] [31] Failed to get process [57] start time, not running, skip killing.
+2025-12-17 11:42:14.119117 [INFO] [config:server:basics] httpdWorkers: 8, Num of Processors: 8
+2025-12-17 11:42:14.121299 [INFO] [config:server:basics] enableLVE: 0
+2025-12-17 11:42:14.121579 [INFO] [config:server:basics] bubbleWrap: 0, cmd: '(null)'
+2025-12-17 11:42:14.122041 [NOTICE] [testAndFixDirs] "/usr/local/lsws//conf/" own or permission need to be changed.
+2025-12-17 11:42:14.239730 [INFO] [PlainConf] [httpServerConfig:] start parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 11:42:14.240032 [INFO] [PlainConf] [httpServerConfig:] Finished parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 11:42:14.244444 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkprivatecache 1]
+2025-12-17 11:42:14.244794 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkpubliccache 1]
+2025-12-17 11:42:14.244977 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxcacheobjsize 10000000]
+2025-12-17 11:42:14.245150 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxstaleage 200]
+2025-12-17 11:42:14.245307 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [qscache 1]
+2025-12-17 11:42:14.245464 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [reqcookiecache 1]
+2025-12-17 11:42:14.245649 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [respcookiecache 1]
+2025-12-17 11:42:14.245812 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorereqcachectrl 1]
+2025-12-17 11:42:14.245953 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorerespcachectrl 0]
+2025-12-17 11:42:14.246087 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enablecache 0]
+2025-12-17 11:42:14.246221 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [expireinseconds 3600]
+2025-12-17 11:42:14.246340 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enableprivatecache 0]
+2025-12-17 11:42:14.246457 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [privateexpireinseconds 3600]
+2025-12-17 11:42:14.246578 [NOTICE] Loading LiteSpeed/1.8.1 Open (lsquic 4.0.8, modgzip 1.1, cache 1.65, mod_security 1.4 (with libmodsecurity v3.0.12)) BUILD (built: Thu Mar 28 15:46:53 UTC 2024) ...
+2025-12-17 11:42:14.246706 [NOTICE] Using [BoringSSL]
+2025-12-17 11:42:14.248857 [NOTICE] [ADMIN] server socket: uds://usr/local/lsws/admin/tmp/admin.sock.7872, fd 6.
+2025-12-17 11:42:14.249394 [NOTICE] [31] chroot is disabled.
+2025-12-17 11:42:14.249680 [INFO] [31] old priority: 0, new priority: 0
+2025-12-17 11:42:14.250039 [INFO] [31] [config:server:basics2] For better obscurity, server version number is hidden in the response header.
+2025-12-17 11:42:14.253856 [INFO] [31] setuid is allowed in Ext Apps
+2025-12-17 11:42:14.254379 [NOTICE] [31] [PID: 31]: forked cgid: 35
+2025-12-17 11:42:14.254652 [INFO] [31] Download QUIC.cloud whitelist IP to tmp/download-quic-cloud-ips ...
+2025-12-17 11:42:15.169113 [INFO] [31] Add QUIC.cloud IPs from admin/conf/quic-cloud-ips to trusted ACL ...
+2025-12-17 11:42:15.169443 [INFO] [31] Add CloudFlare Subnets to trusted ACL ...
+2025-12-17 11:42:15.169756 [INFO] [31] [PlainConf] [adminConfig:] start parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 11:42:15.173550 [INFO] [31] [PlainConf] [adminConfig:] Failed to RCS checkin conf file /usr/local/lsws/admin/conf/admin_config.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/admin/conf/admin_config.conf0" -mUpdate "/usr/local/lsws/admin/conf/admin_config.conf0" >/dev/null 2>&1.
+2025-12-17 11:42:15.173791 [INFO] [31] [PlainConf] [adminConfig:] Finished parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 11:42:15.174380 [INFO] [31] QuicEngine::init(), pid: 31, log level [warn].
+2025-12-17 11:42:15.175856 [INFO] [31] [Module: modcompress 1.1] has been initialized successfully
+2025-12-17 11:42:15.176150 [INFO] [31] [Module: moddecompress 1.1] has been initialized successfully
+2025-12-17 11:42:15.176385 [INFO] [31] [Module: cache 1.65] has been initialized successfully
+2025-12-17 11:42:15.176934 [NOTICE] [31] Created new Listener [adminListener].
+2025-12-17 11:42:15.177096 [NOTICE] [31] [*:7080] enabled QUIC UDP
+2025-12-17 11:42:15.177295 [INFO] [31] [*:8088] Enable SO_REUSEPORT .
+2025-12-17 11:42:15.177460 [NOTICE] [31] [*:8088] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:42:15.177691 [NOTICE] [31] Created new Listener [Default].
+2025-12-17 11:42:15.177857 [INFO] [31] [*:80] Enable SO_REUSEPORT .
+2025-12-17 11:42:15.178021 [NOTICE] [31] [*:80] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:42:15.178186 [NOTICE] [31] Created new Listener [HTTP].
+2025-12-17 11:42:15.178534 [INFO] [31] [*:443] Enable SO_REUSEPORT .
+2025-12-17 11:42:15.178654 [NOTICE] [31] [*:443] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 11:42:15.178838 [NOTICE] [31] Created new Listener [HTTPS].
+2025-12-17 11:42:15.178958 [INFO] [31] [*:443] Enable SO_REUSEPORT .
+2025-12-17 11:42:15.179083 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #1 socket started, fd: 47
+2025-12-17 11:42:15.179211 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #2 socket started, fd: 48
+2025-12-17 11:42:15.179336 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #3 socket started, fd: 49
+2025-12-17 11:42:15.179459 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #4 socket started, fd: 50
+2025-12-17 11:42:15.179632 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #5 socket started, fd: 51
+2025-12-17 11:42:15.179782 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #6 socket started, fd: 52
+2025-12-17 11:42:15.179962 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #7 socket started, fd: 53
+2025-12-17 11:42:15.180109 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #8 socket started, fd: 54
+2025-12-17 11:42:15.180243 [NOTICE] [31] [*:443] enabled QUIC UDP
+2025-12-17 11:42:15.180379 [NOTICE] [31] The maximum number of file descriptor limit is set to 1048576.
+2025-12-17 11:42:15.181906 [NOTICE] [31] [config:server:python] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 11:42:15.182077 [NOTICE] [31] [config:server:nodejs] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 11:42:15.185319 [INFO] [31] [PlainConf] [virtualHostConfig:] start parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 11:42:15.191546 [INFO] [31] [PlainConf] [virtualHostConfig:] Finished parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 11:42:15.191695 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:42:15.194302 [WARN] [31] [config:server:vhosts:vhost:Example] Uid of /usr/local/lsws/Example/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 11:42:15.194506 [WARN] [31] [config:server:vhosts:vhost:Example] Gid of /usr/local/lsws/Example/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 11:42:15.198004 [INFO] [31] [config:server:vhosts:vhost:Example] config context /.
+2025-12-17 11:42:15.198267 [INFO] [31] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 11:42:15.198425 [INFO] [31] [config:server:vhosts:vhost:Example] config context /blocked/.
+2025-12-17 11:42:15.198600 [INFO] [31] [config:server:vhosts:vhost:Example] config context /cgi-bin/.
+2025-12-17 11:42:15.198849 [INFO] [31] [config:server:vhosts:vhost:Example] config context /docs/.
+2025-12-17 11:42:15.199045 [INFO] [31] [config:server:vhosts:vhost:Example] config context /protected/.
+2025-12-17 11:42:15.200351 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 11:42:15.205958 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 11:42:15.206104 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:42:15.209107 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 11:42:15.213574 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 11:42:15.213744 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:42:15.216966 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 11:42:15.221343 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 11:42:15.221513 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 11:42:15.224139 [WARN] [31] [config:template:localhost:vhost:localhost] Uid of /var/www/vhosts/localhost/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 11:42:15.224305 [WARN] [31] [config:template:localhost:vhost:localhost] Gid of /var/www/vhosts/localhost/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 11:42:15.226292 [ERROR] [31] Path for certificate file is invalid: /root/.acme.sh/certs/localhost_ecc/fullchain.cer
+2025-12-17 11:42:15.226503 [INFO] [31] [config:template:localhost:vhost:localhost] config context /.
+2025-12-17 11:42:15.228037 [INFO] [31] Rewrite directive: <IfModule mod_rewrite.c> bypassed.
+2025-12-17 11:42:15.228210 [INFO] [31] Rewrite directive: </IfModule> bypassed.
+2025-12-17 11:42:15.228362 [INFO] [31] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 11:42:15.228579 [NOTICE] [31] [ZConfManager] No VHosts added, do not send!
+2025-12-17 11:42:15.229071 [NOTICE] [31] Instance is ready for service. m_fdCmd 59, m_fdAdmin 6.
+2025-12-17 11:42:15.229541 [NOTICE] [31] [AutoRestarter] new child process with pid=39 is forked!
+2025-12-17 11:42:15.230014 [NOTICE] [31] [AutoRestarter] new child process with pid=40 is forked!
+2025-12-17 11:42:15.230058 [INFO] [39] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.230421 [INFO] [39] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.231007 [INFO] [39] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.230527 [NOTICE] [31] [AutoRestarter] new child process with pid=41 is forked!
+2025-12-17 11:42:15.230532 [INFO] [40] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.231526 [INFO] [40] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.230932 [INFO] [41] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.231185 [INFO] [39] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.232036 [INFO] [39] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.231578 [NOTICE] [31] [AutoRestarter] new child process with pid=42 is forked!
+2025-12-17 11:42:15.231702 [INFO] [40] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.232597 [INFO] [40] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.231869 [INFO] [41] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.232919 [INFO] [41] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.232224 [INFO] [39] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.233201 [INFO] [43] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.232231 [INFO] [42] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.233596 [INFO] [42] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.232650 [NOTICE] [31] [AutoRestarter] new child process with pid=43 is forked!
+2025-12-17 11:42:15.232775 [INFO] [40] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.233063 [INFO] [41] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.234225 [INFO] [41] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.233221 [INFO] [39] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.234520 [NOTICE] [39] [*:8088] Worker #1 activates SO_REUSEPORT #1 socket, fd: 23
+2025-12-17 11:42:15.233386 [INFO] [43] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.234826 [INFO] [43] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.233757 [INFO] [42] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.235149 [INFO] [42] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.234086 [INFO] [40] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.235457 [INFO] [40] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.234202 [NOTICE] [31] [AutoRestarter] new child process with pid=44 is forked!
+2025-12-17 11:42:15.234364 [INFO] [41] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.234691 [INFO] [39] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.236127 [INFO] [39] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.234921 [INFO] [44] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.236484 [INFO] [44] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.234985 [INFO] [43] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.236821 [INFO] [43] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.235310 [INFO] [42] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.237119 [INFO] [42] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.235631 [NOTICE] [40] [*:8088] Worker #2 activates SO_REUSEPORT #2 socket, fd: 24
+2025-12-17 11:42:15.235927 [INFO] [41] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.236228 [NOTICE] [31] [AutoRestarter] new child process with pid=45 is forked!
+2025-12-17 11:42:15.236303 [INFO] [39] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.237946 [INFO] [39] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.236652 [INFO] [44] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.236884 [INFO] [45] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.238701 [INFO] [45] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.236986 [INFO] [43] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.237261 [INFO] [42] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.237431 [INFO] [40] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.237562 [NOTICE] [41] [*:8088] Worker #3 activates SO_REUSEPORT #3 socket, fd: 25
+2025-12-17 11:42:15.238049 [NOTICE] [31] [AutoRestarter] new child process with pid=46 is forked!
+2025-12-17 11:42:15.238207 [INFO] [39] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.239840 [INFO] [39] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.238457 [INFO] [44] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.240147 [INFO] [44] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.238653 [INFO] [46] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 11:42:15.240453 [INFO] [46] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 11:42:15.238938 [INFO] [45] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.240750 [INFO] [45] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.239103 [INFO] [43] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.239232 [NOTICE] [42] [*:8088] Worker #4 activates SO_REUSEPORT #4 socket, fd: 26
+2025-12-17 11:42:15.239404 [INFO] [40] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.241308 [INFO] [40] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.239547 [INFO] [41] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.241582 [INFO] [41] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.239987 [INFO] [39] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.241864 [NOTICE] [39] [*:80] Worker #1 activates SO_REUSEPORT #1 socket, fd: 31
+2025-12-17 11:42:15.240294 [INFO] [44] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.242166 [INFO] [44] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.240603 [INFO] [46] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 11:42:15.242476 [INFO] [46] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 11:42:15.240894 [INFO] [45] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.242803 [INFO] [45] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.241038 [NOTICE] [43] [*:8088] Worker #5 activates SO_REUSEPORT #5 socket, fd: 27
+2025-12-17 11:42:15.241173 [INFO] [42] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.243263 [INFO] [42] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.241446 [INFO] [40] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.241713 [INFO] [41] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.242027 [INFO] [39] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.243856 [INFO] [39] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.242322 [NOTICE] [44] [*:8088] Worker #6 activates SO_REUSEPORT #6 socket, fd: 28
+2025-12-17 11:42:15.242641 [INFO] [46] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 11:42:15.244455 [INFO] [46] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 11:42:15.242960 [INFO] [45] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 11:42:15.243138 [INFO] [43] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.244974 [INFO] [43] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.243381 [INFO] [42] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.243528 [INFO] [40] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.243675 [INFO] [41] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.244094 [INFO] [39] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.245921 [INFO] [39] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.244310 [INFO] [44] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.246359 [INFO] [44] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.244612 [INFO] [46] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 11:42:15.244781 [NOTICE] [45] [*:8088] Worker #7 activates SO_REUSEPORT #7 socket, fd: 29
+2025-12-17 11:42:15.245227 [INFO] [43] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.245381 [INFO] [42] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.247313 [INFO] [42] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.245557 [INFO] [40] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.245713 [INFO] [41] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.246118 [INFO] [39] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.248189 [INFO] [39] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.246601 [INFO] [44] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.248529 [INFO] [44] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.246811 [NOTICE] [46] [*:8088] Worker #8 activates SO_REUSEPORT #8 socket, fd: 30
+2025-12-17 11:42:15.247019 [INFO] [45] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.247168 [INFO] [43] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.249167 [INFO] [43] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.247451 [INFO] [42] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.249504 [INFO] [42] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.247623 [INFO] [40] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.247763 [INFO] [41] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.248368 [INFO] [39] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.248677 [INFO] [44] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.250440 [INFO] [44] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.248840 [INFO] [46] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 11:42:15.248991 [INFO] [45] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.249338 [INFO] [43] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.249665 [NOTICE] [42] [*:80] Worker #4 activates SO_REUSEPORT #4 socket, fd: 34
+2025-12-17 11:42:15.249872 [NOTICE] [40] [*:80] Worker #2 activates SO_REUSEPORT #2 socket, fd: 32
+2025-12-17 11:42:15.250037 [INFO] [41] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.250240 [NOTICE] [39] [*:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 39
+2025-12-17 11:42:15.250635 [INFO] [44] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.250833 [INFO] [46] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 11:42:15.251046 [INFO] [45] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.251237 [INFO] [43] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.251464 [INFO] [42] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.251681 [INFO] [40] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.251887 [NOTICE] [41] [*:80] Worker #3 activates SO_REUSEPORT #3 socket, fd: 33
+2025-12-17 11:42:15.252151 [INFO] [39] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.254087 [INFO] [39] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.252322 [NOTICE] [44] [*:80] Worker #6 activates SO_REUSEPORT #6 socket, fd: 36
+2025-12-17 11:42:15.252527 [INFO] [46] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 11:42:15.254654 [INFO] [46] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.252732 [INFO] [45] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 11:42:15.253216 [NOTICE] [43] [*:80] Worker #5 activates SO_REUSEPORT #5 socket, fd: 35
+2025-12-17 11:42:15.253420 [INFO] [42] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.253599 [INFO] [40] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.253864 [INFO] [41] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.254284 [INFO] [39] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.254494 [INFO] [44] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.254839 [INFO] [46] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.255035 [INFO] [45] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 11:42:15.255245 [INFO] [43] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.255452 [INFO] [42] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.256994 [INFO] [42] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.255656 [INFO] [40] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.255828 [INFO] [41] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.257572 [INFO] [41] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.256024 [INFO] [39] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.256225 [INFO] [44] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.256421 [INFO] [46] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.256631 [INFO] [45] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 11:42:15.256804 [INFO] [43] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.257166 [INFO] [42] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.257374 [INFO] [40] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.257773 [INFO] [41] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.257979 [INFO] [39] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.260975 [INFO] [39] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.258211 [INFO] [44] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.261401 [INFO] [44] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.258415 [INFO] [46] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 11:42:15.258705 [INFO] [45] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 11:42:15.259134 [INFO] [43] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.262186 [INFO] [43] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.259616 [INFO] [42] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.262532 [INFO] [42] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.260509 [INFO] [40] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.260701 [INFO] [41] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.263108 [INFO] [41] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.261201 [INFO] [39] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.261592 [INFO] [44] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.263734 [INFO] [44] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.261813 [NOTICE] [46] [*:80] Worker #8 activates SO_REUSEPORT #8 socket, fd: 38
+2025-12-17 11:42:15.262001 [NOTICE] [45] [*:80] Worker #7 activates SO_REUSEPORT #7 socket, fd: 37
+2025-12-17 11:42:15.264490 [INFO] [45] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.262341 [INFO] [43] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.262707 [NOTICE] [42] [*:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 42
+2025-12-17 11:42:15.262934 [INFO] [40] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.263290 [INFO] [41] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.265656 [NOTICE] [41] [*:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 41
+2025-12-17 11:42:15.263526 [NOTICE] [39] [UDP *:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 47
+2025-12-17 11:42:15.263914 [INFO] [44] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.266498 [NOTICE] [44] [*:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 44
+2025-12-17 11:42:15.264284 [INFO] [46] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 11:42:15.264702 [INFO] [45] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.267280 [INFO] [45] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.265033 [INFO] [43] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.265290 [INFO] [42] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.267969 [INFO] [42] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.265479 [INFO] [40] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.265882 [INFO] [41] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.266254 [INFO] [39] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.266897 [INFO] [44] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.268997 [INFO] [44] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.267031 [INFO] [46] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 11:42:15.267517 [INFO] [45] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.269546 [INFO] [45] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.267716 [INFO] [43] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.268148 [INFO] [42] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.270277 [INFO] [42] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.268377 [NOTICE] [40] [*:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 40
+2025-12-17 11:42:15.268561 [INFO] [41] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.268810 [INFO] [39] [UDP:0.0.0.0:7080] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.269172 [INFO] [44] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.271378 [INFO] [44] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.269370 [INFO] [46] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 11:42:15.271827 [INFO] [46] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 11:42:15.269722 [INFO] [45] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.272259 [INFO] [45] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 11:42:15.269989 [NOTICE] [43] [*:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 43
+2025-12-17 11:42:15.270522 [INFO] [42] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.270773 [INFO] [40] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.273017 [INFO] [40] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.270932 [INFO] [41] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.271506 [NOTICE] [39] Successfully change current user to nobody
+2025-12-17 11:42:15.271607 [INFO] [44] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.272074 [INFO] [46] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 11:42:15.274015 [INFO] [46] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 11:42:15.272436 [NOTICE] [45] [*:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 45
+2025-12-17 11:42:15.272691 [INFO] [43] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.272825 [INFO] [42] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.273188 [INFO] [40] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.275786 [INFO] [40] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.273365 [INFO] [41] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.276191 [INFO] [41] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.273624 [NOTICE] [39] Core dump is enabled.
+2025-12-17 11:42:15.273808 [INFO] [44] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.274220 [INFO] [46] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 11:42:15.274557 [INFO] [45] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.277381 [INFO] [45] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.275256 [INFO] [43] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.277833 [INFO] [43] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.275520 [INFO] [42] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.278320 [NOTICE] [42] [UDP *:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 50
+2025-12-17 11:42:15.275992 [INFO] [40] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.276400 [INFO] [41] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.278962 [INFO] [41] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.276767 [INFO] [39] [lsphp]: locked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 11:42:15.276907 [INFO] [44] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.279681 [NOTICE] [44] [UDP *:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 52
+2025-12-17 11:42:15.277155 [NOTICE] [46] [*:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 46
+2025-12-17 11:42:15.277597 [INFO] [45] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.278031 [INFO] [43] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.280526 [INFO] [43] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.278612 [INFO] [42] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.278771 [INFO] [40] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.281101 [INFO] [40] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.279159 [NOTICE] [41] [UDP *:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 49
+2025-12-17 11:42:15.279506 [INFO] [39] [lsphp] remove unix socket for detached process: /tmp/lshttpd/lsphp.sock
+2025-12-17 11:42:15.280043 [INFO] [44] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.280152 [INFO] [46] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 11:42:15.280342 [INFO] [45] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.280725 [INFO] [43] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.280938 [NOTICE] [42] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.281300 [NOTICE] [40] [UDP *:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 48
+2025-12-17 11:42:15.281522 [INFO] [41] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.281788 [NOTICE] [39] [LocalWorker::workerExec] Config[lsphp]: suExec uid 65534 gid 65534 cmd /usr/local/lsws/fcgi-bin/lsphp, final uid 65534 gid 65534, flags: 0.
+2025-12-17 11:42:15.281841 [NOTICE] [44] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.281991 [INFO] [46] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 11:42:15.283680 [INFO] [46] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 11:42:15.282143 [INFO] [45] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.282288 [INFO] [43] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.284683 [NOTICE] [43] [UDP *:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 51
+2025-12-17 11:42:15.282708 [NOTICE] [42] Successfully change current user to nobody
+2025-12-17 11:42:15.282722 [INFO] [40] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.282956 [NOTICE] [41] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.283815 [NOTICE] [39] [lsphp] add child process pid: 47
+2025-12-17 11:42:15.286382 [NOTICE] [41] Successfully change current user to nobody
+2025-12-17 11:42:15.283985 [NOTICE] [44] Successfully change current user to nobody
+2025-12-17 11:42:15.287006 [NOTICE] [44] Core dump is enabled.
+2025-12-17 11:42:15.284214 [INFO] [46] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 11:42:15.284500 [INFO] [45] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.288956 [INFO] [45] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 11:42:15.284984 [INFO] [43] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.285460 [NOTICE] [42] Core dump is enabled.
+2025-12-17 11:42:15.285756 [NOTICE] [40] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.286534 [INFO] [39] [lsphp]: unlocked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 11:42:15.286692 [NOTICE] [41] Core dump is enabled.
+2025-12-17 11:42:15.288272 [NOTICE] [44] Setup swapping space...
+2025-12-17 11:42:15.288511 [INFO] [46] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 11:42:15.289285 [NOTICE] [45] [UDP *:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 53
+2025-12-17 11:42:15.289500 [NOTICE] [43] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.289735 [NOTICE] [42] Setup swapping space...
+2025-12-17 11:42:15.290270 [NOTICE] [39] Setup swapping space...
+2025-12-17 11:42:15.290308 [NOTICE] [40] Successfully change current user to nobody
+2025-12-17 11:42:15.291139 [NOTICE] [41] Setup swapping space...
+2025-12-17 11:42:15.292577 [INFO] [46] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 11:42:15.292928 [INFO] [45] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.293366 [NOTICE] [44] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.293439 [NOTICE] [43] Successfully change current user to nobody
+2025-12-17 11:42:15.294498 [NOTICE] [42] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.294773 [NOTICE] [39] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.294992 [NOTICE] [40] Core dump is enabled.
+2025-12-17 11:42:15.295709 [INFO] [46] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 11:42:15.296027 [NOTICE] [41] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.296143 [NOTICE] [45] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.296656 [NOTICE] [43] Core dump is enabled.
+2025-12-17 11:42:15.297400 [NOTICE] [40] Setup swapping space...
+2025-12-17 11:42:15.297658 [NOTICE] [46] [UDP *:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 54
+2025-12-17 11:42:15.298341 [NOTICE] [45] Successfully change current user to nobody
+2025-12-17 11:42:15.298316 [NOTICE] [43] Setup swapping space...
+2025-12-17 11:42:15.298846 [INFO] [46] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 11:42:15.299030 [NOTICE] [45] Core dump is enabled.
+2025-12-17 11:42:15.299305 [NOTICE] [40] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.299566 [NOTICE] [46] Stop listener *:7080, fd 21.
+2025-12-17 11:42:15.299786 [NOTICE] [43] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.299879 [NOTICE] [45] Setup swapping space...
+2025-12-17 11:42:15.300652 [NOTICE] [46] Successfully change current user to nobody
+2025-12-17 11:42:15.300933 [NOTICE] [46] Core dump is enabled.
+2025-12-17 11:42:15.301140 [NOTICE] [46] Setup swapping space...
+2025-12-17 11:42:15.301292 [NOTICE] [45] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:42:15.301816 [NOTICE] [46] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 11:43:15.632122 [NOTICE] [39] [!!!UPDATE!!!] current branch new version 1.8.4.0 is available.
+2025-12-17 11:43:15.633381 [NOTICE] [39] [!!!UPDATE!!!] new stable version 1.8.4.0 is available.
+2025-12-17 11:45:33.319972 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:45:33.320263 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:45:33.320563 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:45:33.321496 [NOTICE] [39] [AdminPHP] add child process pid: 85
+2025-12-17 11:45:35.215755 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:45:35.216100 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:45:35.216354 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:45:35.217252 [NOTICE] [39] [AdminPHP] add child process pid: 86
+2025-12-17 11:46:06.081479 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:85:-3:0'.
+2025-12-17 11:46:06.081852 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:86:-3:0'.
+2025-12-17 11:46:06.809200 [NOTICE] [31] Cmd from child: [extappkill:85:-3:0]
+2025-12-17 11:46:06.809752 [INFO] [31] Failed to get process [85] start time, not running, skip killing.
+2025-12-17 11:46:06.809983 [NOTICE] [31] Cmd from child: [extappkill:86:-3:0]
+2025-12-17 11:46:06.810320 [INFO] [31] Failed to get process [86] start time, not running, skip killing.
+2025-12-17 11:46:24.430747 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:46:24.431416 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:46:24.431786 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:46:24.432791 [NOTICE] [39] [AdminPHP] add child process pid: 95
+2025-12-17 11:47:04.099005 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:95:-3:0'.
+2025-12-17 11:47:04.805293 [NOTICE] [31] Cmd from child: [extappkill:95:-3:0]
+2025-12-17 11:47:04.805721 [INFO] [31] Failed to get process [95] start time, not running, skip killing.
+2025-12-17 11:47:19.566319 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:47:19.566636 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:47:19.567321 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:47:19.568153 [NOTICE] [39] [AdminPHP] add child process pid: 104
+2025-12-17 11:49:04.008971 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:104:-3:0'.
+2025-12-17 11:49:04.799978 [NOTICE] [31] Cmd from child: [extappkill:104:-3:0]
+2025-12-17 11:49:04.800263 [INFO] [31] Failed to get process [104] start time, not running, skip killing.
+2025-12-17 11:49:34.652161 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:49:34.652497 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:49:34.652734 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:49:34.653703 [NOTICE] [39] [AdminPHP] add child process pid: 122
+2025-12-17 11:50:05.068892 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:122:-3:0'.
+2025-12-17 11:50:05.797907 [NOTICE] [31] Cmd from child: [extappkill:122:-3:0]
+2025-12-17 11:50:05.798277 [INFO] [31] Failed to get process [122] start time, not running, skip killing.
+2025-12-17 11:50:35.645761 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:50:35.646038 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:50:35.646207 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:50:35.646835 [NOTICE] [39] [AdminPHP] add child process pid: 131
+2025-12-17 11:51:06.070640 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:131:-3:0'.
+2025-12-17 11:51:06.795227 [NOTICE] [31] Cmd from child: [extappkill:131:-3:0]
+2025-12-17 11:51:06.795563 [INFO] [31] Failed to get process [131] start time, not running, skip killing.
+2025-12-17 11:51:36.649777 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:51:36.650072 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:51:36.650423 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:51:36.651209 [NOTICE] [39] [AdminPHP] add child process pid: 140
+2025-12-17 11:52:07.069697 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:140:-3:0'.
+2025-12-17 11:52:07.793427 [NOTICE] [31] Cmd from child: [extappkill:140:-3:0]
+2025-12-17 11:52:07.793845 [INFO] [31] Failed to get process [140] start time, not running, skip killing.
+2025-12-17 11:52:37.644293 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:52:37.644544 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:52:37.644738 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:52:37.645566 [NOTICE] [39] [AdminPHP] add child process pid: 149
+2025-12-17 11:53:08.085619 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:149:-3:0'.
+2025-12-17 11:53:08.790910 [NOTICE] [31] Cmd from child: [extappkill:149:-3:0]
+2025-12-17 11:53:08.791454 [INFO] [31] Failed to get process [149] start time, not running, skip killing.
+2025-12-17 11:53:38.647321 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:53:38.647747 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:53:38.647973 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:53:38.648701 [NOTICE] [39] [AdminPHP] add child process pid: 158
+2025-12-17 11:54:09.099410 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:158:-3:0'.
+2025-12-17 11:54:09.500223 [INFO] [44] [172.18.0.1:57716] Connection idle time too long: 301 while in state: 2 watching for event: 4, close!
+2025-12-17 11:54:09.787189 [NOTICE] [31] Cmd from child: [extappkill:158:-3:0]
+2025-12-17 11:54:09.787463 [INFO] [31] Failed to get process [158] start time, not running, skip killing.
+2025-12-17 11:54:39.657119 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:54:39.657379 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:54:39.657706 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:54:39.658485 [NOTICE] [39] [AdminPHP] add child process pid: 167
+2025-12-17 11:55:10.073608 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:167:-3:0'.
+2025-12-17 11:55:10.784801 [NOTICE] [31] Cmd from child: [extappkill:167:-3:0]
+2025-12-17 11:55:10.785263 [INFO] [31] Failed to get process [167] start time, not running, skip killing.
+2025-12-17 11:55:40.656338 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:55:40.656629 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:55:40.656832 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:55:40.657859 [NOTICE] [39] [AdminPHP] add child process pid: 176
+2025-12-17 11:56:11.075602 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:176:-3:0'.
+2025-12-17 11:56:11.782088 [NOTICE] [31] Cmd from child: [extappkill:176:-3:0]
+2025-12-17 11:56:11.782534 [INFO] [31] Failed to get process [176] start time, not running, skip killing.
+2025-12-17 11:56:41.644376 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:56:41.644724 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:56:41.644941 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:56:41.645665 [NOTICE] [39] [AdminPHP] add child process pid: 185
+2025-12-17 11:57:12.077770 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:185:-3:0'.
+2025-12-17 11:57:12.779336 [NOTICE] [31] Cmd from child: [extappkill:185:-3:0]
+2025-12-17 11:57:12.779842 [INFO] [31] Failed to get process [185] start time, not running, skip killing.
+2025-12-17 11:57:42.651926 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:57:42.652147 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:57:42.652368 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:57:42.653007 [NOTICE] [39] [AdminPHP] add child process pid: 194
+2025-12-17 11:58:13.070606 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:194:-3:0'.
+2025-12-17 11:58:13.778060 [NOTICE] [31] Cmd from child: [extappkill:194:-3:0]
+2025-12-17 11:58:13.778596 [INFO] [31] Failed to get process [194] start time, not running, skip killing.
+2025-12-17 11:58:43.658014 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:58:43.658330 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:58:43.658561 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:58:43.659406 [NOTICE] [39] [AdminPHP] add child process pid: 203
+2025-12-17 11:59:14.076542 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:203:-3:0'.
+2025-12-17 11:59:14.774582 [NOTICE] [31] Cmd from child: [extappkill:203:-3:0]
+2025-12-17 11:59:14.774955 [INFO] [31] Failed to get process [203] start time, not running, skip killing.
+2025-12-17 11:59:44.652780 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:59:44.653794 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 11:59:44.654062 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 11:59:44.655389 [NOTICE] [39] [AdminPHP] add child process pid: 212
+2025-12-17 12:00:15.074881 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:212:-3:0'.
+2025-12-17 12:00:15.771186 [NOTICE] [31] Cmd from child: [extappkill:212:-3:0]
+2025-12-17 12:00:15.771491 [INFO] [31] Failed to get process [212] start time, not running, skip killing.
+2025-12-17 12:00:45.644719 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:00:45.645099 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:00:45.645497 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:00:45.646220 [NOTICE] [39] [AdminPHP] add child process pid: 221
+2025-12-17 12:01:16.062076 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:221:-3:0'.
+2025-12-17 12:01:16.768759 [NOTICE] [31] Cmd from child: [extappkill:221:-3:0]
+2025-12-17 12:01:16.771624 [INFO] [31] Failed to get process [221] start time, not running, skip killing.
+2025-12-17 12:01:46.649264 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:01:46.649625 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:01:46.650032 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:01:46.650825 [NOTICE] [39] [AdminPHP] add child process pid: 230
+2025-12-17 12:02:17.076045 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:230:-3:0'.
+2025-12-17 12:02:17.767366 [NOTICE] [31] Cmd from child: [extappkill:230:-3:0]
+2025-12-17 12:02:17.767754 [INFO] [31] Failed to get process [230] start time, not running, skip killing.
+2025-12-17 12:02:47.657450 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:02:47.657780 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:02:47.658125 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:02:47.659077 [NOTICE] [39] [AdminPHP] add child process pid: 239
+2025-12-17 12:03:18.079939 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:239:-3:0'.
+2025-12-17 12:03:18.764343 [NOTICE] [31] Cmd from child: [extappkill:239:-3:0]
+2025-12-17 12:03:18.764885 [INFO] [31] Failed to get process [239] start time, not running, skip killing.
+2025-12-17 12:03:48.650594 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:03:48.651039 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:03:48.651336 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:03:48.652287 [NOTICE] [39] [AdminPHP] add child process pid: 248
+2025-12-17 12:04:19.075239 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:248:-3:0'.
+2025-12-17 12:04:19.762531 [NOTICE] [31] Cmd from child: [extappkill:248:-3:0]
+2025-12-17 12:04:19.762947 [INFO] [31] Failed to get process [248] start time, not running, skip killing.
+2025-12-17 12:04:49.659701 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:04:49.660598 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:04:49.661385 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:04:49.665477 [NOTICE] [39] [AdminPHP] add child process pid: 257
+2025-12-17 12:05:20.010453 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:257:-3:0'.
+2025-12-17 12:05:20.761372 [NOTICE] [31] Cmd from child: [extappkill:257:-3:0]
+2025-12-17 12:05:20.762440 [INFO] [31] Failed to get process [257] start time, not running, skip killing.
+2025-12-17 12:05:50.651154 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:05:50.652349 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:05:50.653395 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:05:50.656558 [NOTICE] [39] [AdminPHP] add child process pid: 266
+2025-12-17 12:06:21.087057 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:266:-3:0'.
+2025-12-17 12:06:21.755708 [NOTICE] [31] Cmd from child: [extappkill:266:-3:0]
+2025-12-17 12:06:21.756187 [INFO] [31] Failed to get process [266] start time, not running, skip killing.
+2025-12-17 12:06:51.657243 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:06:51.658615 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:06:51.659519 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:06:51.662630 [NOTICE] [39] [AdminPHP] add child process pid: 275
+2025-12-17 12:07:22.018197 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:275:-3:0'.
+2025-12-17 12:07:22.752978 [NOTICE] [31] Cmd from child: [extappkill:275:-3:0]
+2025-12-17 12:07:22.753459 [INFO] [31] Failed to get process [275] start time, not running, skip killing.
+2025-12-17 12:07:52.660810 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:07:52.661947 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:07:52.663122 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:07:52.666015 [NOTICE] [39] [AdminPHP] add child process pid: 284
+2025-12-17 12:08:23.002090 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:284:-3:0'.
+2025-12-17 12:08:23.751633 [NOTICE] [31] Cmd from child: [extappkill:284:-3:0]
+2025-12-17 12:08:23.753058 [INFO] [31] Failed to get process [284] start time, not running, skip killing.
+2025-12-17 12:08:53.650212 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:08:53.651313 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:08:53.652369 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:08:53.655260 [NOTICE] [39] [AdminPHP] add child process pid: 293
+2025-12-17 12:09:24.007433 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:293:-3:0'.
+2025-12-17 12:09:24.739913 [NOTICE] [31] Cmd from child: [extappkill:293:-3:0]
+2025-12-17 12:09:24.741184 [INFO] [31] Failed to get process [293] start time, not running, skip killing.
+2025-12-17 12:09:54.656993 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:09:54.658039 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:09:54.659080 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:09:54.661807 [NOTICE] [39] [AdminPHP] add child process pid: 302
+2025-12-17 12:10:25.074551 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:302:-3:0'.
+2025-12-17 12:10:25.737395 [NOTICE] [31] Cmd from child: [extappkill:302:-3:0]
+2025-12-17 12:10:25.737880 [INFO] [31] Failed to get process [302] start time, not running, skip killing.
+2025-12-17 12:10:55.681341 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:10:55.681871 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:10:55.682213 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:10:55.683384 [NOTICE] [39] [AdminPHP] add child process pid: 311
+2025-12-17 12:11:26.012690 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:311:-3:0'.
+2025-12-17 12:11:26.727760 [NOTICE] [31] Cmd from child: [extappkill:311:-3:0]
+2025-12-17 12:11:26.728163 [INFO] [31] Failed to get process [311] start time, not running, skip killing.
+2025-12-17 12:11:56.654806 [NOTICE] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:11:56.655776 [INFO] [39] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 12:11:56.656666 [NOTICE] [39] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 12:11:56.659690 [NOTICE] [39] [AdminPHP] add child process pid: 320
+2025-12-17 13:35:31.128885 [NOTICE] [39] sendKillCmdToWatchdog: 'extappkill:320:-3:0'.
+2025-12-17 13:35:31.617206 [NOTICE] [31] Cmd from child: [extappkill:320:-3:0]
+2025-12-17 13:35:31.623390 [INFO] [31] Failed to get process [320] start time, not running, skip killing.
+2025-12-17 13:38:43.953488 [INFO] [config:server:basics] httpdWorkers: 8, Num of Processors: 8
+2025-12-17 13:38:43.956752 [INFO] [config:server:basics] enableLVE: 0
+2025-12-17 13:38:43.957014 [INFO] [config:server:basics] bubbleWrap: 0, cmd: '(null)'
+2025-12-17 13:38:43.957831 [NOTICE] [testAndFixDirs] "/usr/local/lsws//conf/" own or permission need to be changed.
+2025-12-17 13:38:44.103270 [INFO] [PlainConf] [httpServerConfig:] start parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 13:38:44.103533 [INFO] [PlainConf] [httpServerConfig:] Finished parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 13:38:44.103706 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkprivatecache 1]
+2025-12-17 13:38:44.103915 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkpubliccache 1]
+2025-12-17 13:38:44.104104 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxcacheobjsize 10000000]
+2025-12-17 13:38:44.104470 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxstaleage 200]
+2025-12-17 13:38:44.104647 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [qscache 1]
+2025-12-17 13:38:44.104846 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [reqcookiecache 1]
+2025-12-17 13:38:44.105025 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [respcookiecache 1]
+2025-12-17 13:38:44.105345 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorereqcachectrl 1]
+2025-12-17 13:38:44.105686 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorerespcachectrl 0]
+2025-12-17 13:38:44.105853 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enablecache 0]
+2025-12-17 13:38:44.106019 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [expireinseconds 3600]
+2025-12-17 13:38:44.106247 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enableprivatecache 0]
+2025-12-17 13:38:44.106421 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [privateexpireinseconds 3600]
+2025-12-17 13:38:44.106581 [NOTICE] Loading LiteSpeed/1.8.1 Open (lsquic 4.0.8, modgzip 1.1, cache 1.65, mod_security 1.4 (with libmodsecurity v3.0.12)) BUILD (built: Thu Mar 28 15:46:53 UTC 2024) ...
+2025-12-17 13:38:44.106745 [NOTICE] Using [BoringSSL]
+2025-12-17 13:38:44.109866 [NOTICE] [ADMIN] server socket: uds://usr/local/lsws/admin/tmp/admin.sock.7871, fd 6.
+2025-12-17 13:38:44.110348 [NOTICE] [32] chroot is disabled.
+2025-12-17 13:38:44.110599 [INFO] [32] old priority: 0, new priority: 0
+2025-12-17 13:38:44.110997 [INFO] [32] [config:server:basics2] For better obscurity, server version number is hidden in the response header.
+2025-12-17 13:38:44.116182 [INFO] [32] setuid is allowed in Ext Apps
+2025-12-17 13:38:44.116818 [NOTICE] [32] [PID: 32]: forked cgid: 36
+2025-12-17 13:38:44.117197 [INFO] [32] Download QUIC.cloud whitelist IP to tmp/download-quic-cloud-ips ...
+2025-12-17 13:38:45.279902 [INFO] [32] Add QUIC.cloud IPs from admin/conf/quic-cloud-ips to trusted ACL ...
+2025-12-17 13:38:45.280295 [INFO] [32] Add CloudFlare Subnets to trusted ACL ...
+2025-12-17 13:38:45.280630 [INFO] [32] [PlainConf] [adminConfig:] start parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 13:38:45.285561 [INFO] [32] [PlainConf] [adminConfig:] Failed to RCS checkin conf file /usr/local/lsws/admin/conf/admin_config.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/admin/conf/admin_config.conf0" -mUpdate "/usr/local/lsws/admin/conf/admin_config.conf0" >/dev/null 2>&1.
+2025-12-17 13:38:45.285871 [INFO] [32] [PlainConf] [adminConfig:] Finished parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 13:38:45.286746 [INFO] [32] QuicEngine::init(), pid: 32, log level [warn].
+2025-12-17 13:38:45.289684 [INFO] [32] [Module: modcompress 1.1] has been initialized successfully
+2025-12-17 13:38:45.290077 [INFO] [32] [Module: moddecompress 1.1] has been initialized successfully
+2025-12-17 13:38:45.290361 [INFO] [32] [Module: cache 1.65] has been initialized successfully
+2025-12-17 13:38:45.290999 [NOTICE] [32] Created new Listener [adminListener].
+2025-12-17 13:38:45.291230 [NOTICE] [32] [*:7080] enabled QUIC UDP
+2025-12-17 13:38:45.291528 [INFO] [32] [*:8088] Enable SO_REUSEPORT .
+2025-12-17 13:38:45.291728 [NOTICE] [32] [*:8088] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 13:38:45.291967 [NOTICE] [32] Created new Listener [Default].
+2025-12-17 13:38:45.292130 [INFO] [32] [*:80] Enable SO_REUSEPORT .
+2025-12-17 13:38:45.292295 [NOTICE] [32] [*:80] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 13:38:45.292803 [NOTICE] [32] Created new Listener [HTTP].
+2025-12-17 13:38:45.293269 [INFO] [32] [*:443] Enable SO_REUSEPORT .
+2025-12-17 13:38:45.293440 [NOTICE] [32] [*:443] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 13:38:45.293811 [NOTICE] [32] Created new Listener [HTTPS].
+2025-12-17 13:38:45.293986 [INFO] [32] [*:443] Enable SO_REUSEPORT .
+2025-12-17 13:38:45.294163 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #1 socket started, fd: 47
+2025-12-17 13:38:45.294332 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #2 socket started, fd: 48
+2025-12-17 13:38:45.294492 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #3 socket started, fd: 49
+2025-12-17 13:38:45.294655 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #4 socket started, fd: 50
+2025-12-17 13:38:45.294817 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #5 socket started, fd: 51
+2025-12-17 13:38:45.294983 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #6 socket started, fd: 52
+2025-12-17 13:38:45.295140 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #7 socket started, fd: 53
+2025-12-17 13:38:45.295302 [NOTICE] [32] [UDP *:443] SO_REUSEPORT #8 socket started, fd: 54
+2025-12-17 13:38:45.295445 [NOTICE] [32] [*:443] enabled QUIC UDP
+2025-12-17 13:38:45.295608 [NOTICE] [32] The maximum number of file descriptor limit is set to 1048576.
+2025-12-17 13:38:45.297368 [NOTICE] [32] [config:server:python] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 13:38:45.297619 [NOTICE] [32] [config:server:nodejs] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 13:38:45.301527 [INFO] [32] [PlainConf] [virtualHostConfig:] start parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 13:38:45.318787 [INFO] [32] [PlainConf] [virtualHostConfig:] Finished parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 13:38:45.318999 [INFO] [32] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:38:45.322249 [WARN] [32] [config:server:vhosts:vhost:Example] Uid of /usr/local/lsws/Example/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 13:38:45.322438 [WARN] [32] [config:server:vhosts:vhost:Example] Gid of /usr/local/lsws/Example/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 13:38:45.327446 [INFO] [32] [config:server:vhosts:vhost:Example] config context /.
+2025-12-17 13:38:45.327763 [INFO] [32] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 13:38:45.327940 [INFO] [32] [config:server:vhosts:vhost:Example] config context /blocked/.
+2025-12-17 13:38:45.328127 [INFO] [32] [config:server:vhosts:vhost:Example] config context /cgi-bin/.
+2025-12-17 13:38:45.328311 [INFO] [32] [config:server:vhosts:vhost:Example] config context /docs/.
+2025-12-17 13:38:45.328495 [INFO] [32] [config:server:vhosts:vhost:Example] config context /protected/.
+2025-12-17 13:38:45.329849 [INFO] [32] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 13:38:45.335657 [INFO] [32] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 13:38:45.335832 [INFO] [32] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:38:45.339369 [INFO] [32] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 13:38:45.344846 [INFO] [32] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 13:38:45.345040 [INFO] [32] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:38:45.348879 [INFO] [32] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 13:38:45.354741 [INFO] [32] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 13:38:45.354931 [INFO] [32] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:38:45.357599 [WARN] [32] [config:template:localhost:vhost:localhost] Uid of /var/www/vhosts/localhost/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 13:38:45.357776 [WARN] [32] [config:template:localhost:vhost:localhost] Gid of /var/www/vhosts/localhost/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 13:38:45.359345 [ERROR] [32] Path for certificate file is invalid: /root/.acme.sh/certs/localhost_ecc/fullchain.cer
+2025-12-17 13:38:45.359587 [INFO] [32] [config:template:localhost:vhost:localhost] config context /.
+2025-12-17 13:38:45.361322 [INFO] [32] Rewrite directive: <IfModule mod_rewrite.c> bypassed.
+2025-12-17 13:38:45.361577 [INFO] [32] Rewrite directive: </IfModule> bypassed.
+2025-12-17 13:38:45.361725 [INFO] [32] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 13:38:45.361922 [NOTICE] [32] [ZConfManager] No VHosts added, do not send!
+2025-12-17 13:38:45.362375 [NOTICE] [32] Instance is ready for service. m_fdCmd 59, m_fdAdmin 6.
+2025-12-17 13:38:45.362795 [NOTICE] [32] [AutoRestarter] new child process with pid=40 is forked!
+2025-12-17 13:38:45.363260 [NOTICE] [32] [AutoRestarter] new child process with pid=41 is forked!
+2025-12-17 13:38:45.363287 [INFO] [40] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.363639 [INFO] [40] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.363813 [INFO] [40] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.363679 [NOTICE] [32] [AutoRestarter] new child process with pid=42 is forked!
+2025-12-17 13:38:45.363893 [INFO] [41] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.364352 [INFO] [41] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.363984 [INFO] [40] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.364700 [INFO] [40] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.364303 [INFO] [42] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.365003 [INFO] [43] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.364373 [NOTICE] [32] [AutoRestarter] new child process with pid=43 is forked!
+2025-12-17 13:38:45.364545 [INFO] [41] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.365643 [INFO] [41] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.364861 [INFO] [40] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.365040 [INFO] [42] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.366203 [INFO] [42] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.365188 [INFO] [43] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.366578 [INFO] [43] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.365786 [NOTICE] [32] [AutoRestarter] new child process with pid=44 is forked!
+2025-12-17 13:38:45.365832 [INFO] [41] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.367105 [INFO] [41] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.366014 [INFO] [40] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.366382 [INFO] [42] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.367621 [INFO] [42] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.366453 [INFO] [44] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.366756 [INFO] [43] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.368112 [INFO] [43] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.367268 [INFO] [41] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.367270 [NOTICE] [32] [AutoRestarter] new child process with pid=45 is forked!
+2025-12-17 13:38:45.367461 [NOTICE] [40] [*:8088] Worker #1 activates SO_REUSEPORT #1 socket, fd: 23
+2025-12-17 13:38:45.367792 [INFO] [42] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.368890 [INFO] [42] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.367889 [INFO] [45] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.367965 [INFO] [44] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.369777 [INFO] [44] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.368271 [INFO] [43] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.370104 [INFO] [43] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.368421 [NOTICE] [41] [*:8088] Worker #2 activates SO_REUSEPORT #2 socket, fd: 24
+2025-12-17 13:38:45.368753 [INFO] [40] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.370560 [INFO] [40] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.368951 [NOTICE] [32] [AutoRestarter] new child process with pid=46 is forked!
+2025-12-17 13:38:45.369347 [INFO] [46] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.371003 [INFO] [46] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.369419 [NOTICE] [42] [*:8088] Worker #3 activates SO_REUSEPORT #3 socket, fd: 25
+2025-12-17 13:38:45.369608 [INFO] [45] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.371799 [INFO] [45] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.369942 [INFO] [44] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.372122 [INFO] [44] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.370249 [NOTICE] [43] [*:8088] Worker #4 activates SO_REUSEPORT #4 socket, fd: 26
+2025-12-17 13:38:45.370415 [INFO] [41] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.372636 [INFO] [41] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.370710 [INFO] [40] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.372955 [INFO] [40] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.371115 [NOTICE] [32] [AutoRestarter] new child process with pid=47 is forked!
+2025-12-17 13:38:45.371169 [INFO] [46] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.373486 [INFO] [46] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.371557 [INFO] [47] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:38:45.373781 [INFO] [47] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:38:45.371634 [INFO] [42] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.374076 [INFO] [42] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.371963 [INFO] [45] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.374412 [INFO] [45] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.372293 [INFO] [44] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.374734 [INFO] [44] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.372469 [INFO] [43] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.375053 [INFO] [43] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.372790 [INFO] [41] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.375361 [INFO] [41] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.373115 [INFO] [40] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.373637 [INFO] [46] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.373914 [INFO] [47] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:38:45.375933 [INFO] [47] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:38:45.374250 [INFO] [42] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.374570 [INFO] [45] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.376635 [INFO] [45] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.374889 [NOTICE] [44] [*:8088] Worker #5 activates SO_REUSEPORT #5 socket, fd: 27
+2025-12-17 13:38:45.375206 [INFO] [43] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.375507 [INFO] [41] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.375667 [INFO] [40] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.377703 [INFO] [40] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.375813 [INFO] [46] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.376051 [INFO] [47] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:38:45.376433 [INFO] [42] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.378492 [INFO] [42] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.376839 [NOTICE] [45] [*:8088] Worker #6 activates SO_REUSEPORT #6 socket, fd: 28
+2025-12-17 13:38:45.377058 [INFO] [44] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.377251 [INFO] [43] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.379366 [INFO] [43] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.377445 [INFO] [41] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.377905 [NOTICE] [40] [*:80] Worker #1 activates SO_REUSEPORT #1 socket, fd: 31
+2025-12-17 13:38:45.378112 [INFO] [46] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:38:45.378304 [INFO] [47] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:38:45.378690 [INFO] [42] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.378936 [INFO] [45] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.379126 [INFO] [44] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.379574 [INFO] [43] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.381492 [INFO] [43] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.380015 [INFO] [41] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.381806 [NOTICE] [41] [*:80] Worker #2 activates SO_REUSEPORT #2 socket, fd: 32
+2025-12-17 13:38:45.380398 [INFO] [40] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.382123 [INFO] [40] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.380554 [NOTICE] [46] [*:8088] Worker #7 activates SO_REUSEPORT #7 socket, fd: 29
+2025-12-17 13:38:45.380739 [INFO] [47] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:38:45.380939 [INFO] [42] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.382718 [NOTICE] [42] [*:80] Worker #3 activates SO_REUSEPORT #3 socket, fd: 33
+2025-12-17 13:38:45.381135 [INFO] [45] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.383031 [INFO] [45] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.381315 [INFO] [44] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.383344 [INFO] [44] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.381651 [NOTICE] [43] [*:80] Worker #4 activates SO_REUSEPORT #4 socket, fd: 34
+2025-12-17 13:38:45.381993 [INFO] [41] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.383806 [INFO] [41] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.382269 [INFO] [40] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.384110 [INFO] [40] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.382438 [INFO] [46] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.384397 [INFO] [46] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.382559 [NOTICE] [47] [*:8088] Worker #8 activates SO_REUSEPORT #8 socket, fd: 30
+2025-12-17 13:38:45.382944 [INFO] [42] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.384812 [INFO] [42] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.383191 [INFO] [45] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.385117 [INFO] [45] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.383502 [INFO] [44] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.385443 [INFO] [44] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.383664 [INFO] [43] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.385765 [INFO] [43] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.383955 [INFO] [41] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.384258 [INFO] [40] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.386240 [INFO] [40] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.384541 [INFO] [46] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.386584 [INFO] [46] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.384675 [INFO] [47] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:38:45.384957 [INFO] [42] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.385280 [INFO] [45] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.387239 [INFO] [45] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.385611 [INFO] [44] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.387570 [NOTICE] [44] [*:80] Worker #5 activates SO_REUSEPORT #5 socket, fd: 35
+2025-12-17 13:38:45.385909 [INFO] [43] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.387889 [INFO] [43] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.386106 [INFO] [41] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.388231 [INFO] [41] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.386414 [INFO] [40] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.386742 [INFO] [46] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.388705 [INFO] [46] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.386896 [INFO] [47] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:38:45.388982 [INFO] [47] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:38:45.387068 [INFO] [42] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.389295 [INFO] [42] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.387414 [NOTICE] [45] [*:80] Worker #6 activates SO_REUSEPORT #6 socket, fd: 36
+2025-12-17 13:38:45.387801 [INFO] [44] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.389803 [INFO] [44] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.388060 [INFO] [43] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.390150 [INFO] [43] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.388378 [INFO] [41] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.390460 [INFO] [41] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.388539 [NOTICE] [40] [*:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 39
+2025-12-17 13:38:45.388858 [INFO] [46] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:38:45.390963 [NOTICE] [46] [*:80] Worker #7 activates SO_REUSEPORT #7 socket, fd: 37
+2025-12-17 13:38:45.389102 [INFO] [47] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:38:45.391264 [INFO] [47] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:38:45.389515 [INFO] [42] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.391543 [INFO] [42] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.389652 [INFO] [45] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.391860 [INFO] [45] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.389983 [INFO] [44] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.390304 [INFO] [43] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.390623 [NOTICE] [41] [*:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 40
+2025-12-17 13:38:45.390797 [INFO] [40] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.391145 [INFO] [46] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.391397 [INFO] [47] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:38:45.391697 [NOTICE] [42] [*:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 41
+2025-12-17 13:38:45.392084 [INFO] [45] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.394004 [INFO] [45] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.392485 [INFO] [44] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.392754 [NOTICE] [43] [*:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 42
+2025-12-17 13:38:45.392962 [INFO] [41] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.394891 [INFO] [41] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.393150 [INFO] [40] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.393364 [INFO] [46] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.393578 [INFO] [47] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:38:45.395729 [NOTICE] [47] [*:80] Worker #8 activates SO_REUSEPORT #8 socket, fd: 38
+2025-12-17 13:38:45.393814 [INFO] [42] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.396143 [INFO] [42] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.394191 [INFO] [45] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.394404 [INFO] [44] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.394645 [INFO] [43] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.395135 [INFO] [41] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.397223 [INFO] [41] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.395339 [INFO] [40] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.395536 [INFO] [46] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.397812 [INFO] [46] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.395991 [INFO] [47] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:38:45.396342 [INFO] [42] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.396559 [INFO] [45] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.396803 [INFO] [44] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.398742 [INFO] [44] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.397034 [INFO] [43] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.399129 [INFO] [43] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.397393 [INFO] [41] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.399487 [INFO] [41] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.397628 [INFO] [40] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.399857 [INFO] [40] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.397983 [INFO] [46] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.400222 [INFO] [46] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.398143 [INFO] [47] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:38:45.398355 [INFO] [42] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.400823 [INFO] [42] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.398559 [INFO] [45] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.401272 [NOTICE] [45] [*:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 44
+2025-12-17 13:38:45.398947 [NOTICE] [44] [*:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 43
+2025-12-17 13:38:45.399308 [INFO] [43] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.399681 [INFO] [41] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.400035 [INFO] [40] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.400445 [INFO] [46] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:38:45.400646 [INFO] [47] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:38:45.401031 [INFO] [42] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.402680 [INFO] [42] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.401511 [INFO] [45] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.402994 [INFO] [45] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.401713 [INFO] [44] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.401870 [INFO] [43] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.403464 [INFO] [43] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.402022 [NOTICE] [41] [UDP *:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 48
+2025-12-17 13:38:45.402180 [INFO] [40] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.403950 [NOTICE] [40] [UDP *:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 47
+2025-12-17 13:38:45.402334 [NOTICE] [46] [*:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 45
+2025-12-17 13:38:45.402516 [INFO] [47] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:38:45.402843 [NOTICE] [42] [UDP *:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 49
+2025-12-17 13:38:45.403139 [INFO] [45] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.404805 [INFO] [45] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.403291 [INFO] [44] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.403622 [INFO] [43] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.405252 [NOTICE] [43] [UDP *:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 50
+2025-12-17 13:38:45.403819 [INFO] [41] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.404194 [INFO] [40] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.404336 [INFO] [46] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.404493 [INFO] [47] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:38:45.406185 [INFO] [47] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:38:45.404675 [INFO] [42] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.404947 [INFO] [45] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.406761 [INFO] [45] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.405107 [INFO] [44] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.405410 [INFO] [43] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.405607 [NOTICE] [41] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.405784 [INFO] [40] [UDP:0.0.0.0:7080] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.405950 [INFO] [46] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.406368 [INFO] [47] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:38:45.406594 [NOTICE] [42] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.406963 [INFO] [45] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.409792 [NOTICE] [41] Successfully change current user to nobody
+2025-12-17 13:38:45.407186 [INFO] [44] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.407410 [NOTICE] [43] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.408003 [INFO] [46] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.408505 [NOTICE] [47] [*:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 46
+2025-12-17 13:38:45.411188 [NOTICE] [43] Successfully change current user to nobody
+2025-12-17 13:38:45.409060 [NOTICE] [40] Successfully change current user to nobody
+2025-12-17 13:38:45.409798 [NOTICE] [45] [UDP *:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 52
+2025-12-17 13:38:45.409918 [NOTICE] [42] Successfully change current user to nobody
+2025-12-17 13:38:45.410070 [NOTICE] [41] Core dump is enabled.
+2025-12-17 13:38:45.410366 [INFO] [44] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.410926 [INFO] [46] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.412936 [INFO] [46] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.411225 [INFO] [47] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:38:45.413303 [INFO] [47] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:38:45.411411 [NOTICE] [43] Core dump is enabled.
+2025-12-17 13:38:45.411667 [NOTICE] [40] Core dump is enabled.
+2025-12-17 13:38:45.411970 [INFO] [45] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.413916 [INFO] [40] [lsphp]: locked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 13:38:45.412280 [NOTICE] [42] Core dump is enabled.
+2025-12-17 13:38:45.412555 [NOTICE] [41] Setup swapping space...
+2025-12-17 13:38:45.412789 [INFO] [44] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.413079 [INFO] [46] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.413469 [INFO] [47] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:38:45.415062 [INFO] [47] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:38:45.413661 [NOTICE] [43] Setup swapping space...
+2025-12-17 13:38:45.414036 [NOTICE] [45] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.414205 [INFO] [40] [lsphp] remove unix socket for detached process: /tmp/lshttpd/lsphp.sock
+2025-12-17 13:38:45.414433 [NOTICE] [42] Setup swapping space...
+2025-12-17 13:38:45.414726 [INFO] [44] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.414870 [INFO] [46] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:38:45.415246 [INFO] [47] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:38:45.416493 [INFO] [47] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:38:45.415352 [NOTICE] [41] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.415706 [NOTICE] [43] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.415813 [NOTICE] [45] Successfully change current user to nobody
+2025-12-17 13:38:45.415849 [NOTICE] [40] [LocalWorker::workerExec] Config[lsphp]: suExec uid 65534 gid 65534 cmd /usr/local/lsws/fcgi-bin/lsphp, final uid 65534 gid 65534, flags: 0.
+2025-12-17 13:38:45.416178 [NOTICE] [44] [UDP *:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 51
+2025-12-17 13:38:45.416237 [NOTICE] [42] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.416319 [NOTICE] [46] [UDP *:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 53
+2025-12-17 13:38:45.416650 [INFO] [47] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:38:45.417126 [NOTICE] [45] Core dump is enabled.
+2025-12-17 13:38:45.417516 [INFO] [44] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.417733 [NOTICE] [40] [lsphp] add child process pid: 48
+2025-12-17 13:38:45.417965 [INFO] [46] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.418861 [INFO] [40] [lsphp]: unlocked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 13:38:45.418114 [NOTICE] [47] [UDP *:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 54
+2025-12-17 13:38:45.418322 [NOTICE] [45] Setup swapping space...
+2025-12-17 13:38:45.418512 [NOTICE] [44] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.418900 [NOTICE] [46] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.419061 [NOTICE] [40] Setup swapping space...
+2025-12-17 13:38:45.419916 [NOTICE] [45] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.419240 [INFO] [47] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:38:45.419815 [NOTICE] [44] Successfully change current user to nobody
+2025-12-17 13:38:45.420023 [NOTICE] [40] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.420062 [NOTICE] [46] Successfully change current user to nobody
+2025-12-17 13:38:45.420318 [NOTICE] [47] Stop listener *:7080, fd 21.
+2025-12-17 13:38:45.420478 [NOTICE] [44] Core dump is enabled.
+2025-12-17 13:38:45.421211 [NOTICE] [47] Successfully change current user to nobody
+2025-12-17 13:38:45.420819 [NOTICE] [46] Core dump is enabled.
+2025-12-17 13:38:45.421265 [NOTICE] [44] Setup swapping space...
+2025-12-17 13:38:45.421400 [NOTICE] [47] Core dump is enabled.
+2025-12-17 13:38:45.421611 [NOTICE] [46] Setup swapping space...
+2025-12-17 13:38:45.421954 [NOTICE] [47] Setup swapping space...
+2025-12-17 13:38:45.422351 [NOTICE] [44] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.422622 [NOTICE] [47] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:45.422884 [NOTICE] [46] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:38:50.646703 [NOTICE] [40] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 13:38:50.647023 [INFO] [40] [LocalWorker::workerExec] VHost:_AdminVHost suExec check uid 999 gid 65534 setuidmode 2.
+2025-12-17 13:38:50.647257 [NOTICE] [40] [LocalWorker::workerExec] Config[AdminPHP]: suExec uid -1 gid -1 cmd /usr/local/lsws/admin/fcgi-bin/admin_php -c ../conf/php.ini, final uid 999 gid 65534, flags: 0.
+2025-12-17 13:38:50.648175 [NOTICE] [40] [AdminPHP] add child process pid: 58
+2025-12-17 13:39:21.041138 [NOTICE] [40] sendKillCmdToWatchdog: 'extappkill:58:-3:0'.
+2025-12-17 13:39:21.801318 [NOTICE] [32] Cmd from child: [extappkill:58:-3:0]
+2025-12-17 13:39:21.801641 [INFO] [32] Failed to get process [58] start time, not running, skip killing.
+2025-12-17 13:39:45.648936 [NOTICE] [40] [!!!UPDATE!!!] new stable version 1.8.4.0 is available.
+2025-12-17 13:39:45.655769 [NOTICE] [40] [!!!UPDATE!!!] current branch new version 1.8.4.0 is available.
+2025-12-17 13:46:08.219530 [INFO] [config:server:basics] httpdWorkers: 8, Num of Processors: 8
+2025-12-17 13:46:08.222104 [INFO] [config:server:basics] enableLVE: 0
+2025-12-17 13:46:08.223044 [INFO] [config:server:basics] bubbleWrap: 0, cmd: '(null)'
+2025-12-17 13:46:08.224054 [NOTICE] [testAndFixDirs] "/usr/local/lsws//conf/" own or permission need to be changed.
+2025-12-17 13:46:08.380970 [INFO] [PlainConf] [httpServerConfig:] start parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 13:46:08.381425 [INFO] [PlainConf] [httpServerConfig:] Finished parsing file /usr/local/lsws/conf/httpd_config.conf
+2025-12-17 13:46:08.382387 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkprivatecache 1]
+2025-12-17 13:46:08.382917 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [checkpubliccache 1]
+2025-12-17 13:46:08.383774 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxcacheobjsize 10000000]
+2025-12-17 13:46:08.384037 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [maxstaleage 200]
+2025-12-17 13:46:08.384239 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [qscache 1]
+2025-12-17 13:46:08.384444 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [reqcookiecache 1]
+2025-12-17 13:46:08.384648 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [respcookiecache 1]
+2025-12-17 13:46:08.384860 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorereqcachectrl 1]
+2025-12-17 13:46:08.385073 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [ignorerespcachectrl 0]
+2025-12-17 13:46:08.385266 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enablecache 0]
+2025-12-17 13:46:08.385459 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [expireinseconds 3600]
+2025-12-17 13:46:08.385645 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [enableprivatecache 0]
+2025-12-17 13:46:08.385830 [INFO] [PlainConf] [httpServerConfig:] module [cache] add param [privateexpireinseconds 3600]
+2025-12-17 13:46:08.386023 [NOTICE] Loading LiteSpeed/1.8.1 Open (lsquic 4.0.8, modgzip 1.1, cache 1.65, mod_security 1.4 (with libmodsecurity v3.0.12)) BUILD (built: Thu Mar 28 15:46:53 UTC 2024) ...
+2025-12-17 13:46:08.386260 [NOTICE] Using [BoringSSL]
+2025-12-17 13:46:08.389687 [NOTICE] [ADMIN] server socket: uds://usr/local/lsws/admin/tmp/admin.sock.7535, fd 6.
+2025-12-17 13:46:08.390609 [NOTICE] [31] chroot is disabled.
+2025-12-17 13:46:08.391022 [INFO] [31] old priority: 0, new priority: 0
+2025-12-17 13:46:08.391427 [INFO] [31] [config:server:basics2] For better obscurity, server version number is hidden in the response header.
+2025-12-17 13:46:08.397833 [INFO] [31] setuid is allowed in Ext Apps
+2025-12-17 13:46:08.398697 [NOTICE] [31] [PID: 31]: forked cgid: 35
+2025-12-17 13:46:08.399330 [INFO] [31] Download QUIC.cloud whitelist IP to tmp/download-quic-cloud-ips ...
+2025-12-17 13:46:09.291227 [INFO] [31] Add QUIC.cloud IPs from admin/conf/quic-cloud-ips to trusted ACL ...
+2025-12-17 13:46:09.291692 [INFO] [31] Add CloudFlare Subnets to trusted ACL ...
+2025-12-17 13:46:09.291980 [INFO] [31] [PlainConf] [adminConfig:] start parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 13:46:09.297273 [INFO] [31] [PlainConf] [adminConfig:] Failed to RCS checkin conf file /usr/local/lsws/admin/conf/admin_config.conf0, ret 32512, error(No such file or directory). Org command is ci -l -q -t-"/usr/local/lsws/admin/conf/admin_config.conf0" -mUpdate "/usr/local/lsws/admin/conf/admin_config.conf0" >/dev/null 2>&1.
+2025-12-17 13:46:09.297597 [INFO] [31] [PlainConf] [adminConfig:] Finished parsing file /usr/local/lsws/admin/conf/admin_config.conf
+2025-12-17 13:46:09.298526 [INFO] [31] QuicEngine::init(), pid: 31, log level [warn].
+2025-12-17 13:46:09.301701 [INFO] [31] [Module: modcompress 1.1] has been initialized successfully
+2025-12-17 13:46:09.302224 [INFO] [31] [Module: moddecompress 1.1] has been initialized successfully
+2025-12-17 13:46:09.302514 [INFO] [31] [Module: cache 1.65] has been initialized successfully
+2025-12-17 13:46:09.303416 [NOTICE] [31] Created new Listener [adminListener].
+2025-12-17 13:46:09.303759 [NOTICE] [31] [*:7080] enabled QUIC UDP
+2025-12-17 13:46:09.304048 [INFO] [31] [*:8088] Enable SO_REUSEPORT .
+2025-12-17 13:46:09.304296 [NOTICE] [31] [*:8088] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 13:46:09.304654 [NOTICE] [31] Created new Listener [Default].
+2025-12-17 13:46:09.304859 [INFO] [31] [*:80] Enable SO_REUSEPORT .
+2025-12-17 13:46:09.305027 [NOTICE] [31] [*:80] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 13:46:09.305339 [NOTICE] [31] Created new Listener [HTTP].
+2025-12-17 13:46:09.306002 [INFO] [31] [*:443] Enable SO_REUSEPORT .
+2025-12-17 13:46:09.306251 [NOTICE] [31] [*:443] Add SO_REUSEPORT socket, #1 to #8
+2025-12-17 13:46:09.306600 [NOTICE] [31] Created new Listener [HTTPS].
+2025-12-17 13:46:09.306953 [INFO] [31] [*:443] Enable SO_REUSEPORT .
+2025-12-17 13:46:09.307206 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #1 socket started, fd: 47
+2025-12-17 13:46:09.307414 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #2 socket started, fd: 48
+2025-12-17 13:46:09.307716 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #3 socket started, fd: 49
+2025-12-17 13:46:09.307912 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #4 socket started, fd: 50
+2025-12-17 13:46:09.308084 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #5 socket started, fd: 51
+2025-12-17 13:46:09.308272 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #6 socket started, fd: 52
+2025-12-17 13:46:09.308458 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #7 socket started, fd: 53
+2025-12-17 13:46:09.308650 [NOTICE] [31] [UDP *:443] SO_REUSEPORT #8 socket started, fd: 54
+2025-12-17 13:46:09.308809 [NOTICE] [31] [*:443] enabled QUIC UDP
+2025-12-17 13:46:09.308984 [NOTICE] [31] The maximum number of file descriptor limit is set to 1048576.
+2025-12-17 13:46:09.311494 [NOTICE] [31] [config:server:python] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 13:46:09.311723 [NOTICE] [31] [config:server:nodejs] 'Process Limit' probably is too low, adjust the limit to: 520.
+2025-12-17 13:46:09.316130 [INFO] [31] [PlainConf] [virtualHostConfig:] start parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 13:46:09.325563 [INFO] [31] [PlainConf] [virtualHostConfig:] Finished parsing file /usr/local/lsws/conf/vhosts/Example/vhconf.conf
+2025-12-17 13:46:09.326213 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:46:09.330269 [WARN] [31] [config:server:vhosts:vhost:Example] Uid of /usr/local/lsws/Example/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 13:46:09.330506 [WARN] [31] [config:server:vhosts:vhost:Example] Gid of /usr/local/lsws/Example/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 13:46:09.336707 [INFO] [31] [config:server:vhosts:vhost:Example] config context /.
+2025-12-17 13:46:09.337013 [INFO] [31] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 13:46:09.337195 [INFO] [31] [config:server:vhosts:vhost:Example] config context /blocked/.
+2025-12-17 13:46:09.337382 [INFO] [31] [config:server:vhosts:vhost:Example] config context /cgi-bin/.
+2025-12-17 13:46:09.337584 [INFO] [31] [config:server:vhosts:vhost:Example] config context /docs/.
+2025-12-17 13:46:09.337820 [INFO] [31] [config:server:vhosts:vhost:Example] config context /protected/.
+2025-12-17 13:46:09.339355 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 13:46:09.346169 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/ccl.conf
+2025-12-17 13:46:09.346412 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:46:09.351823 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 13:46:09.360066 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/rails.conf
+2025-12-17 13:46:09.360326 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:46:09.365935 [INFO] [31] [PlainConf] [virtualHostTemplate:] start parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 13:46:09.377304 [INFO] [31] [PlainConf] [virtualHostTemplate:] Finished parsing file /usr/local/lsws/conf/templates/docker.conf
+2025-12-17 13:46:09.379053 [INFO] [31] [PlainConf] [context:/] rewrite [] add rules [rewritefile .htaccess]
+2025-12-17 13:46:09.392055 [WARN] [31] [config:template:localhost:vhost:localhost] Uid of /var/www/vhosts/localhost/html/ is 0, smaller than minimum requirement 11, use server uid!
+2025-12-17 13:46:09.393314 [WARN] [31] [config:template:localhost:vhost:localhost] Gid of /var/www/vhosts/localhost/html/ is 65534, smaller than minimum requirement 10, use server gid!
+2025-12-17 13:46:09.397930 [ERROR] [31] Path for certificate file is invalid: /root/.acme.sh/certs/localhost_ecc/fullchain.cer
+2025-12-17 13:46:09.399722 [INFO] [31] [config:template:localhost:vhost:localhost] config context /.
+2025-12-17 13:46:09.407614 [INFO] [31] Rewrite directive: <IfModule mod_rewrite.c> bypassed.
+2025-12-17 13:46:09.408914 [INFO] [31] Rewrite directive: </IfModule> bypassed.
+2025-12-17 13:46:09.409195 [INFO] [31] RewriteFile [.htaccess] parsed, return 0.
+2025-12-17 13:46:09.409864 [NOTICE] [31] [ZConfManager] No VHosts added, do not send!
+2025-12-17 13:46:09.411584 [NOTICE] [31] Instance is ready for service. m_fdCmd 59, m_fdAdmin 6.
+2025-12-17 13:46:09.412699 [NOTICE] [31] [AutoRestarter] new child process with pid=39 is forked!
+2025-12-17 13:46:09.413317 [INFO] [39] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.413524 [NOTICE] [31] [AutoRestarter] new child process with pid=40 is forked!
+2025-12-17 13:46:09.413988 [INFO] [39] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.414225 [INFO] [40] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.414728 [INFO] [39] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.414793 [NOTICE] [31] [AutoRestarter] new child process with pid=41 is forked!
+2025-12-17 13:46:09.415585 [INFO] [41] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.415729 [INFO] [40] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.416046 [INFO] [39] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.417184 [NOTICE] [31] [AutoRestarter] new child process with pid=42 is forked!
+2025-12-17 13:46:09.417757 [INFO] [42] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.418455 [INFO] [41] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.419516 [INFO] [40] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.422047 [INFO] [40] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.419959 [INFO] [39] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.420800 [NOTICE] [31] [AutoRestarter] new child process with pid=43 is forked!
+2025-12-17 13:46:09.421442 [INFO] [42] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.421466 [INFO] [43] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.421683 [INFO] [41] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.422363 [INFO] [40] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.422877 [INFO] [39] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.424148 [NOTICE] [31] [AutoRestarter] new child process with pid=44 is forked!
+2025-12-17 13:46:09.424772 [INFO] [44] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.425063 [INFO] [42] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.433837 [INFO] [42] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.427685 [INFO] [43] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.428685 [INFO] [41] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.431652 [INFO] [40] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.432073 [INFO] [39] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.433209 [INFO] [44] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.433462 [NOTICE] [31] [AutoRestarter] new child process with pid=45 is forked!
+2025-12-17 13:46:09.434110 [INFO] [42] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.436105 [INFO] [42] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.434158 [INFO] [45] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.437571 [INFO] [45] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.434352 [INFO] [43] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.434673 [INFO] [41] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.434921 [INFO] [40] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.435209 [NOTICE] [39] [*:8088] Worker #1 activates SO_REUSEPORT #1 socket, fd: 23
+2025-12-17 13:46:09.435486 [INFO] [44] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.436331 [NOTICE] [31] [AutoRestarter] new child process with pid=46 is forked!
+2025-12-17 13:46:09.436955 [INFO] [46] Close SO_REUSEPORT #1 fd: 23.
+2025-12-17 13:46:09.437252 [INFO] [42] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.438897 [INFO] [45] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.439176 [INFO] [43] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.439591 [INFO] [41] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.442125 [INFO] [41] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.439940 [NOTICE] [40] [*:8088] Worker #2 activates SO_REUSEPORT #2 socket, fd: 24
+2025-12-17 13:46:09.440192 [INFO] [39] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.440415 [INFO] [44] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.440882 [INFO] [46] Close SO_REUSEPORT #2 fd: 24.
+2025-12-17 13:46:09.443381 [INFO] [46] Close SO_REUSEPORT #3 fd: 25.
+2025-12-17 13:46:09.441101 [NOTICE] [42] [*:8088] Worker #4 activates SO_REUSEPORT #4 socket, fd: 26
+2025-12-17 13:46:09.441632 [INFO] [45] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.441911 [INFO] [43] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.442334 [NOTICE] [41] [*:8088] Worker #3 activates SO_REUSEPORT #3 socket, fd: 25
+2025-12-17 13:46:09.442610 [INFO] [40] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.444836 [INFO] [40] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.442877 [INFO] [39] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.445327 [INFO] [39] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.443134 [INFO] [44] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.443632 [INFO] [46] Close SO_REUSEPORT #4 fd: 26.
+2025-12-17 13:46:09.443895 [INFO] [42] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.444133 [INFO] [45] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.444379 [INFO] [43] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.444615 [INFO] [41] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.447043 [INFO] [41] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.445071 [INFO] [40] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.447493 [INFO] [40] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.445545 [INFO] [39] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.447973 [INFO] [39] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.445772 [INFO] [44] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.448493 [INFO] [44] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.446032 [INFO] [46] Close SO_REUSEPORT #5 fd: 27.
+2025-12-17 13:46:09.448960 [INFO] [46] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.446297 [INFO] [42] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.449443 [INFO] [42] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.446536 [INFO] [45] Close SO_REUSEPORT #6 fd: 28.
+2025-12-17 13:46:09.449908 [INFO] [45] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.446828 [INFO] [43] Close SO_REUSEPORT #8 fd: 30.
+2025-12-17 13:46:09.447246 [INFO] [41] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.447727 [INFO] [40] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.450959 [INFO] [40] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.448240 [INFO] [39] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.451567 [INFO] [39] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.448714 [NOTICE] [44] [*:8088] Worker #6 activates SO_REUSEPORT #6 socket, fd: 28
+2025-12-17 13:46:09.449195 [INFO] [46] Close SO_REUSEPORT #7 fd: 29.
+2025-12-17 13:46:09.449651 [INFO] [42] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.450150 [NOTICE] [45] [*:8088] Worker #7 activates SO_REUSEPORT #7 socket, fd: 29
+2025-12-17 13:46:09.450432 [NOTICE] [43] [*:8088] Worker #5 activates SO_REUSEPORT #5 socket, fd: 27
+2025-12-17 13:46:09.450727 [INFO] [41] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.451314 [INFO] [40] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.451793 [NOTICE] [39] [*:80] Worker #1 activates SO_REUSEPORT #1 socket, fd: 31
+2025-12-17 13:46:09.452070 [INFO] [44] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.452283 [NOTICE] [46] [*:8088] Worker #8 activates SO_REUSEPORT #8 socket, fd: 30
+2025-12-17 13:46:09.452552 [INFO] [42] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.452829 [INFO] [45] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.453062 [INFO] [43] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.453306 [INFO] [41] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.453541 [NOTICE] [40] [*:80] Worker #2 activates SO_REUSEPORT #2 socket, fd: 32
+2025-12-17 13:46:09.453801 [INFO] [39] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.454006 [INFO] [44] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.454258 [INFO] [46] Close SO_REUSEPORT #1 fd: 31.
+2025-12-17 13:46:09.454463 [INFO] [42] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.454710 [INFO] [45] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.454958 [INFO] [43] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.455169 [INFO] [41] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.455428 [INFO] [40] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.457639 [INFO] [40] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.455623 [INFO] [39] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.455856 [INFO] [44] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.458632 [INFO] [44] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.456090 [INFO] [46] Close SO_REUSEPORT #2 fd: 32.
+2025-12-17 13:46:09.459145 [INFO] [46] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.456309 [INFO] [42] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.456528 [INFO] [45] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.456776 [INFO] [43] Close SO_REUSEPORT #3 fd: 33.
+2025-12-17 13:46:09.457155 [INFO] [41] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.457901 [INFO] [40] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.458282 [INFO] [39] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.458901 [INFO] [44] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.459378 [INFO] [46] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.459612 [NOTICE] [42] [*:80] Worker #4 activates SO_REUSEPORT #4 socket, fd: 34
+2025-12-17 13:46:09.459846 [INFO] [45] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.460078 [INFO] [43] Close SO_REUSEPORT #4 fd: 34.
+2025-12-17 13:46:09.462038 [INFO] [43] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.460309 [NOTICE] [41] [*:80] Worker #3 activates SO_REUSEPORT #3 socket, fd: 33
+2025-12-17 13:46:09.460556 [INFO] [40] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.460801 [INFO] [39] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.463013 [INFO] [39] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.461016 [INFO] [44] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.463399 [INFO] [44] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.461225 [INFO] [46] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.463807 [INFO] [46] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.461503 [INFO] [42] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.464235 [INFO] [42] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.461789 [INFO] [45] Close SO_REUSEPORT #5 fd: 35.
+2025-12-17 13:46:09.464679 [INFO] [45] Close SO_REUSEPORT #6 fd: 36.
+2025-12-17 13:46:09.462282 [INFO] [43] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.462568 [INFO] [41] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.462798 [INFO] [40] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.463208 [INFO] [39] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.465846 [INFO] [39] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.463595 [NOTICE] [44] [*:80] Worker #6 activates SO_REUSEPORT #6 socket, fd: 36
+2025-12-17 13:46:09.464012 [INFO] [46] Close SO_REUSEPORT #7 fd: 37.
+2025-12-17 13:46:09.466524 [NOTICE] [46] [*:80] Worker #8 activates SO_REUSEPORT #8 socket, fd: 38
+2025-12-17 13:46:09.464453 [INFO] [42] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.467068 [INFO] [42] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.464897 [INFO] [45] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.465125 [INFO] [43] Close SO_REUSEPORT #8 fd: 38.
+2025-12-17 13:46:09.467775 [NOTICE] [43] [*:80] Worker #5 activates SO_REUSEPORT #5 socket, fd: 35
+2025-12-17 13:46:09.465364 [INFO] [41] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.465608 [INFO] [40] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.468560 [INFO] [40] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.466078 [NOTICE] [39] [*:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 39
+2025-12-17 13:46:09.466326 [INFO] [44] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.469263 [INFO] [44] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.466866 [INFO] [46] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.469760 [INFO] [46] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.467293 [INFO] [42] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.467554 [NOTICE] [45] [*:80] Worker #7 activates SO_REUSEPORT #7 socket, fd: 37
+2025-12-17 13:46:09.468088 [INFO] [43] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.468300 [INFO] [41] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.468791 [NOTICE] [40] [*:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 40
+2025-12-17 13:46:09.469039 [INFO] [39] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.471605 [INFO] [39] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.469504 [INFO] [44] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.470007 [INFO] [46] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.470263 [INFO] [42] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.470568 [INFO] [45] Close SO_REUSEPORT #1 fd: 39.
+2025-12-17 13:46:09.470807 [INFO] [43] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.471075 [INFO] [41] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.471358 [INFO] [40] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.475999 [INFO] [40] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.471879 [INFO] [39] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.472120 [INFO] [44] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.476960 [INFO] [44] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.473049 [INFO] [46] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.474918 [INFO] [42] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.475263 [INFO] [45] Close SO_REUSEPORT #2 fd: 40.
+2025-12-17 13:46:09.475504 [INFO] [43] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.475752 [INFO] [41] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.476225 [INFO] [40] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.476713 [INFO] [39] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.477279 [INFO] [44] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.477613 [INFO] [46] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.477977 [NOTICE] [42] [*:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 42
+2025-12-17 13:46:09.479812 [INFO] [45] Close SO_REUSEPORT #3 fd: 41.
+2025-12-17 13:46:09.481249 [INFO] [43] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.484327 [INFO] [43] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.481943 [INFO] [41] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.482242 [INFO] [40] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.482721 [INFO] [39] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.482979 [INFO] [44] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.483259 [INFO] [46] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.483537 [INFO] [42] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.483756 [INFO] [45] Close SO_REUSEPORT #4 fd: 42.
+2025-12-17 13:46:09.484612 [INFO] [43] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.484884 [INFO] [41] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.485316 [INFO] [40] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.485574 [INFO] [39] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.487911 [INFO] [39] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.485912 [NOTICE] [44] [*:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 44
+2025-12-17 13:46:09.486297 [INFO] [46] Close SO_REUSEPORT #7 fd: 45.
+2025-12-17 13:46:09.486550 [INFO] [42] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.486872 [INFO] [45] Close SO_REUSEPORT #5 fd: 43.
+2025-12-17 13:46:09.489153 [INFO] [45] Close SO_REUSEPORT #6 fd: 44.
+2025-12-17 13:46:09.487152 [INFO] [43] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.487408 [NOTICE] [41] [*:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 41
+2025-12-17 13:46:09.487665 [INFO] [40] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.488141 [NOTICE] [39] [UDP *:443] Worker #1 activates SO_REUSEPORT #1 socket, fd: 47
+2025-12-17 13:46:09.488425 [INFO] [44] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.488656 [NOTICE] [46] [*:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 46
+2025-12-17 13:46:09.488911 [INFO] [42] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.489692 [INFO] [45] Close SO_REUSEPORT #8 fd: 46.
+2025-12-17 13:46:09.490035 [NOTICE] [43] [*:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 43
+2025-12-17 13:46:09.490580 [INFO] [41] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.491797 [INFO] [40] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.493499 [INFO] [39] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.493775 [INFO] [44] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.494057 [INFO] [46] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.494281 [INFO] [42] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.494518 [NOTICE] [45] [*:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 45
+2025-12-17 13:46:09.494840 [INFO] [43] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.496921 [INFO] [43] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.495068 [INFO] [41] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.495302 [NOTICE] [40] [UDP *:443] Worker #2 activates SO_REUSEPORT #2 socket, fd: 48
+2025-12-17 13:46:09.495618 [INFO] [39] [UDP:0.0.0.0:7080] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.495818 [INFO] [44] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.496045 [INFO] [46] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.496289 [INFO] [42] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.496585 [INFO] [45] Close SO_REUSEPORT #1 fd: 47.
+2025-12-17 13:46:09.497397 [INFO] [43] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.497662 [INFO] [41] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.497954 [INFO] [40] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.498407 [INFO] [44] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.500187 [INFO] [44] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.498694 [NOTICE] [39] Successfully change current user to nobody
+2025-12-17 13:46:09.498713 [INFO] [46] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.500938 [INFO] [46] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.498982 [INFO] [42] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.499221 [INFO] [45] Close SO_REUSEPORT #2 fd: 48.
+2025-12-17 13:46:09.499452 [INFO] [43] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.499688 [INFO] [41] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.499964 [NOTICE] [40] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.500414 [INFO] [44] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.503288 [INFO] [44] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.500713 [NOTICE] [39] Core dump is enabled.
+2025-12-17 13:46:09.501247 [INFO] [46] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.504759 [INFO] [46] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.501485 [INFO] [42] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.501742 [INFO] [45] Close SO_REUSEPORT #3 fd: 49.
+2025-12-17 13:46:09.502300 [INFO] [43] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.502567 [INFO] [41] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.503224 [NOTICE] [40] Successfully change current user to nobody
+2025-12-17 13:46:09.503892 [NOTICE] [44] [UDP *:443] Worker #6 activates SO_REUSEPORT #6 socket, fd: 52
+2025-12-17 13:46:09.504494 [INFO] [39] [lsphp]: locked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 13:46:09.505764 [INFO] [46] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.507233 [NOTICE] [42] [UDP *:443] Worker #4 activates SO_REUSEPORT #4 socket, fd: 50
+2025-12-17 13:46:09.509716 [INFO] [45] Close SO_REUSEPORT #4 fd: 50.
+2025-12-17 13:46:09.511214 [INFO] [43] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.512153 [INFO] [41] Close SO_REUSEPORT #7 fd: 53.
+2025-12-17 13:46:09.515976 [NOTICE] [40] Core dump is enabled.
+2025-12-17 13:46:09.517234 [INFO] [44] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.518578 [INFO] [39] [lsphp] remove unix socket for detached process: /tmp/lshttpd/lsphp.sock
+2025-12-17 13:46:09.518979 [NOTICE] [46] [UDP *:443] Worker #8 activates SO_REUSEPORT #8 socket, fd: 54
+2025-12-17 13:46:09.519380 [INFO] [42] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.519615 [INFO] [45] Close SO_REUSEPORT #5 fd: 51.
+2025-12-17 13:46:09.519857 [INFO] [43] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.523905 [NOTICE] [43] [UDP *:443] Worker #5 activates SO_REUSEPORT #5 socket, fd: 51
+2025-12-17 13:46:09.520107 [INFO] [41] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.522240 [NOTICE] [40] Setup swapping space...
+2025-12-17 13:46:09.522531 [NOTICE] [44] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.522971 [NOTICE] [39] [LocalWorker::workerExec] Config[lsphp]: suExec uid 65534 gid 65534 cmd /usr/local/lsws/fcgi-bin/lsphp, final uid 65534 gid 65534, flags: 0.
+2025-12-17 13:46:09.523210 [INFO] [46] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.523430 [NOTICE] [42] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.523665 [INFO] [45] Close SO_REUSEPORT #6 fd: 52.
+2025-12-17 13:46:09.524168 [INFO] [43] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.524363 [NOTICE] [41] [UDP *:443] Worker #3 activates SO_REUSEPORT #3 socket, fd: 49
+2025-12-17 13:46:09.526016 [NOTICE] [44] Successfully change current user to nobody
+2025-12-17 13:46:09.526141 [NOTICE] [40] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.527143 [NOTICE] [39] [lsphp] add child process pid: 47
+2025-12-17 13:46:09.527672 [NOTICE] [46] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.528839 [NOTICE] [42] Successfully change current user to nobody
+2025-12-17 13:46:09.531138 [INFO] [45] Close SO_REUSEPORT #8 fd: 54.
+2025-12-17 13:46:09.531808 [NOTICE] [43] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.532252 [INFO] [41] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.532601 [NOTICE] [44] Core dump is enabled.
+2025-12-17 13:46:09.533177 [INFO] [39] [lsphp]: unlocked pid file [/tmp/lshttpd/lsphp.sock.pid].
+2025-12-17 13:46:09.533623 [NOTICE] [42] Core dump is enabled.
+2025-12-17 13:46:09.533660 [NOTICE] [46] Successfully change current user to nobody
+2025-12-17 13:46:09.533864 [NOTICE] [45] [UDP *:443] Worker #7 activates SO_REUSEPORT #7 socket, fd: 53
+2025-12-17 13:46:09.534777 [NOTICE] [41] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.534825 [NOTICE] [43] Successfully change current user to nobody
+2025-12-17 13:46:09.535077 [NOTICE] [44] Setup swapping space...
+2025-12-17 13:46:09.535331 [NOTICE] [39] Setup swapping space...
+2025-12-17 13:46:09.535816 [NOTICE] [42] Setup swapping space...
+2025-12-17 13:46:09.538523 [NOTICE] [46] Core dump is enabled.
+2025-12-17 13:46:09.546047 [INFO] [45] [UDP:0.0.0.0:443] initPacketsIn: allocated 100 packets
+2025-12-17 13:46:09.558784 [NOTICE] [41] Successfully change current user to nobody
+2025-12-17 13:46:09.563405 [NOTICE] [43] Core dump is enabled.
+2025-12-17 13:46:09.566812 [NOTICE] [44] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.566812 [NOTICE] [39] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.567299 [NOTICE] [46] Setup swapping space...
+2025-12-17 13:46:09.567504 [NOTICE] [45] Stop listener *:7080, fd 21.
+2025-12-17 13:46:09.567754 [NOTICE] [42] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.567820 [NOTICE] [41] Core dump is enabled.
+2025-12-17 13:46:09.568072 [NOTICE] [43] Setup swapping space...
+2025-12-17 13:46:09.569286 [NOTICE] [45] Successfully change current user to nobody
+2025-12-17 13:46:09.569479 [NOTICE] [41] Setup swapping space...
+2025-12-17 13:46:09.569515 [NOTICE] [46] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.569907 [NOTICE] [45] Core dump is enabled.
+2025-12-17 13:46:09.570293 [NOTICE] [43] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.570876 [NOTICE] [41] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:46:09.571062 [NOTICE] [45] Setup swapping space...
+2025-12-17 13:46:09.572690 [NOTICE] [45] LiteSpeed/1.8.1 Open starts successfully!
+2025-12-17 13:47:09.698046 [NOTICE] [39] [!!!UPDATE!!!] new stable version 1.8.4.0 is available.
+2025-12-17 13:47:09.711062 [NOTICE] [39] [!!!UPDATE!!!] current branch new version 1.8.4.0 is available.
+2025-12-17 13:49:11.983356 [INFO] [44] RewriteFile [/var/www/vhosts/localhost/html/uploads/.htaccess] parsed, return 0.

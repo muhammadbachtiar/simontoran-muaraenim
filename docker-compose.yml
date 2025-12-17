@@ -1,12 +1,40 @@
 services:
   ci3:
     image: php:7.4-apache
-    ports:
-      - "8081:80"
+    container_name: ci3-apache
+    environment:
+      - TZ=Asia/Jakarta
     volumes:
       - ./app:/var/www/html
+    ports:
+      - "8081:80"
     working_dir: /var/www/html
     command: >
       bash -c "a2enmod rewrite &&
                docker-php-ext-install mysqli &&
                apache2-foreground"
+    restart: always
+    networks:
+      - simontoran-network
+
+  db:
+    image: mariadb:10.6
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: Kominfo@1234!@
+      MYSQL_DATABASE: simontoran_muaraenim
+      MYSQL_USER: simontoran_user
+      MYSQL_PASSWORD: Kominfo@1234!@
+    volumes:
+      - simontoran-db-data:/var/lib/mysql
+      - ./app/sql_dump:/initdb 
+    restart: always
+    networks:
+      - simontoran-network
+
+volumes:
+  simontoran-db-data:
+
+networks:
+  simontoran-network:
+    driver: bridge

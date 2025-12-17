@@ -1,0 +1,12 @@
+services:
+  ci3:
+    image: php:7.4-apache
+    ports:
+      - "8081:80"
+    volumes:
+      - ./app:/var/www/html
+    working_dir: /var/www/html
+    command: >
+      bash -c "a2enmod rewrite &&
+               docker-php-ext-install mysqli &&
+               apache2-foreground"
