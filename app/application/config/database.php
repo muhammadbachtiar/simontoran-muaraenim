@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-    'hostname' => 'xxx',
+    'hostname' => 'mariadb',
 	'username' => 'root',
-	'password' => 'xxxx',
-	'database' => 'xxxx',
+	'password' => 'Kominfo@1234!@',
+	'database' => 'simontoran_muaraenim',
 	'port'     => '3306',
 	'dbdriver' => 'mysqli',
 	'pconnect' => FALSE,
