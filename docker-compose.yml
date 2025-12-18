@@ -9,9 +9,13 @@ services:
     restart: always
     networks:
       - simontoran-network
-
+    depends_on:
+      - db
+      
   db:
-    image: mariadb:10.6
+    build:
+      context: .
+      dockerfile: Dockerfile.db
     container_name: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: Kominfo@1234!@
@@ -20,7 +24,6 @@ services:
       MYSQL_PASSWORD: Kominfo@1234!@
     volumes:
       - simontoran-db-data:/var/lib/mysql
-      - ./app/sql_dump:/initdb 
     restart: always
     networks:
       - simontoran-network
