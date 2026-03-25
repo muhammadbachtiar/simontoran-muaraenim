@@ -10,15 +10,15 @@ services:
     networks:
       - simontoran-network
     depends_on:
-      - db
+      - simontoran-db
     volumes:
       - simontoran-uploads:/var/www/html/uploads
 
-  db:
+  simontoran-db:
     build:
       context: .
       dockerfile: Dockerfile.db
-    container_name: mariadb
+    container_name: simontoran-mariadb
     environment:
       MYSQL_ROOT_PASSWORD: Kominfo@1234!@
       MYSQL_DATABASE: simontoran_muaraenim
