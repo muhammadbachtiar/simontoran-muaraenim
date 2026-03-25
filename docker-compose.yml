@@ -1,7 +1,7 @@
 services:
-  ci3:
+  simontoran-ci3:
     build: .
-    container_name: ci3-apache
+    container_name: simontoran-ci3-apache
     environment:
       - TZ=Asia/Jakarta
     ports:
