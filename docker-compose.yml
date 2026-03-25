@@ -5,13 +5,15 @@ services:
     environment:
       - TZ=Asia/Jakarta
     ports:
-      - "8081:80"
+      - "8083:80"
     restart: always
     networks:
       - simontoran-network
     depends_on:
       - db
-      
+    volumes:
+      - simontoran-uploads:/var/www/html/uploads
+
   db:
     build:
       context: .
@@ -30,6 +32,8 @@ services:
 
 volumes:
   simontoran-db-data:
+  simontoran-uploads:
+
 
 networks:
   simontoran-network:
